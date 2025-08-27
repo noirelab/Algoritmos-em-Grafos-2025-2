@@ -223,6 +223,11 @@ INPUT ./figuras/subgrafos/subgrafo1usubgrafo2.png
 INPUT ./figuras/subgrafos/subgrafo1usubgrafo2.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT ./figuras/subgrafos/subgrafo_inter.png
+INPUT ./figuras/subgrafos/subgrafo_inter.png
+INPUT ./figuras/subgrafos/subgrafo_inter.png
+INPUT ./figuras/subgrafos/subgrafo_inter.png
+INPUT ./figuras/subgrafos/subgrafo_inter.png
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

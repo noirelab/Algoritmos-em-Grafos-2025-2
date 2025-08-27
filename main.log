@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,58 +615,66 @@ Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on inpu
 [14
 
  <./figuras/subgrafos/subgrafo1.png> <./figuras/subgrafos/subgrafo2.png>]
+<figuras/subgrafos/subgrafo_inter.png, id=291, 593.21625pt x 610.28pt>
+File: figuras/subgrafos/subgrafo_inter.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo_inter.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input line 367.
+(pdftex.def)             Requested size: 182.09486pt x 187.33173pt.
 
-[15 <./figuras/subgrafos/subgrafo1usubgrafo2.png>]
+
+[15 <./figuras/subgrafos/subgrafo1usubgrafo2.png> <./figuras/subgrafos/subgrafo_inter.png>]
+
+[16]
 Cap\'{\i }tulo 5.
-
-
-[16
-
-]
-Cap\'{\i }tulo 6.
 
 
 [17
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 6.
 
 
 [18
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 7.
 
 
 [19
 
 ]
-Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 8.
 
 
 [20
 
 ]
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 9.
 
 
 [21
 
 ]
-Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 10.
 
 
 [22
 
 ]
-Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 11.
 
 
 [23
 
 ]
+Cap\'{\i }tulo 12.
+
 
 [24
+
+]
+
+[25
 
 
 ] (./main.aux)
@@ -679,21 +687,21 @@ L3 programming layer <2025-08-13>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5692693D93F561D510FEC96360E63669;4668.
+(rerunfilecheck)             Checksum: 0882B9ADA4AF7FBF51E2D936F7025F4B;4668.
  ) 
 Here is how much of TeX's memory you used:
- 15303 strings out of 467800
- 242180 string characters out of 5431888
- 689917 words of memory out of 5000000
- 43702 multiletter control sequences out of 15000+600000
+ 15313 strings out of 467800
+ 242525 string characters out of 5431888
+ 689992 words of memory out of 5000000
+ 43710 multiletter control sequences out of 15000+600000
  649393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,864b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (26 pages, 453791 bytes).
+Output written on main.pdf (27 pages, 471829 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

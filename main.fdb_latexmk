@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756319081.22907 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756319083.06893 0
-  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756319078.87646 20925 e8c795c34a3b54e105adee6e08470ff6 ""
+["pdflatex"] 1756324140.6444 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756324142.98508 0
+  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756324133.21133 21913 a7c20aa2e303fad62f23710c90988d76 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -104,14 +104,15 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755981886 5528033 0c358b2aae4aa21399659c485f38b4ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755982043 3605797 71a688b38086935756fd2bb76b625872 ""
   "/usr/local/texlive/2025/texmf.cnf" 1755981878.22412 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "figuras/grafoGeometrico.png" 1756319057.96279 114625 034071cc6f124d82f989744090cc22e3 ""
-  "figuras/subgrafos/subgrafo1.png" 1756314861.23626 70354 75aa555b2101458a403c1cf46af0c53d ""
-  "figuras/subgrafos/subgrafo1usubgrafo2.png" 1756315720.90253 138881 d9588565f5c3d3ae4163853cb9008f03 ""
-  "figuras/subgrafos/subgrafo2.png" 1756314950.93939 77243 391ff8d3476521f131c4b87a511daa8b ""
-  "main.aux" 1756319082.9976 8556 87f7b910ec98572e96b74de5669f73bd "pdflatex"
-  "main.out" 1756319082.9986 4668 5692693d93f561d510fec96360e63669 "pdflatex"
-  "main.tex" 1756319078.87646 20925 e8c795c34a3b54e105adee6e08470ff6 ""
-  "main.toc" 1756319082.9986 2621 029bd1d1c4d6db1b38be77057295e5c9 "pdflatex"
+  "figuras/grafoGeometrico.png" 1756324133.15033 114625 034071cc6f124d82f989744090cc22e3 ""
+  "figuras/subgrafos/subgrafo1.png" 1756324133.15133 70354 75aa555b2101458a403c1cf46af0c53d ""
+  "figuras/subgrafos/subgrafo1usubgrafo2.png" 1756324133.15433 138881 d9588565f5c3d3ae4163853cb9008f03 ""
+  "figuras/subgrafos/subgrafo2.png" 1756324133.15633 77243 391ff8d3476521f131c4b87a511daa8b ""
+  "figuras/subgrafos/subgrafo_inter.png" 1756324133.20933 20553 ed70dbaef77ca10d3467f4afde7d8544 ""
+  "main.aux" 1756324142.8775 8827 639848143d018dba5f2ffee21bfce545 "pdflatex"
+  "main.out" 1756324142.8785 4668 0882b9ada4af7fbf51e2d936f7025f4b "pdflatex"
+  "main.tex" 1756324133.21133 21913 a7c20aa2e303fad62f23710c90988d76 ""
+  "main.toc" 1756324142.8785 2621 dd13eebae98865822f8ebf14b88f5e16 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
