@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756327857.90762 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756327859.92203 0
-  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756327855.55787 23565 8d91c4bf7735f2f2033523a42f7c444e ""
+["pdflatex"] 1756328700.15055 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756328702.01758 0
+  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756328699.7033 28383 1d30a46523d435f33c1684a5a5988fba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -111,10 +111,10 @@
   "figuras/subgrafos/subgrafo_inter.png" 1756324133.20933 20553 ed70dbaef77ca10d3467f4afde7d8544 ""
   "figuras/subgrafos/subgrafo_soma.png" 1756327757.48591 48776 99a56588dd96a5ed6b1a7aea15f1bde3 ""
   "figuras/subgrafos/subgrafo_soma_direta.png" 1756327170.37622 77006 18d5c7bb8a09f168dd109fb90bb27e57 ""
-  "main.aux" 1756327859.85405 9341 6667bcf20510bc2234eef5ddb542130d "pdflatex"
-  "main.out" 1756327859.85605 4668 0b9258db55c366be20e3f35510015129 "pdflatex"
-  "main.tex" 1756327855.55787 23565 8d91c4bf7735f2f2033523a42f7c444e ""
-  "main.toc" 1756327859.85605 2621 a7ea9f6b28fa97714642e127c5d8f7c8 "pdflatex"
+  "main.aux" 1756328701.94422 9341 a17c79a30d3205e4870152c211837448 "pdflatex"
+  "main.out" 1756328701.94522 4668 0b9258db55c366be20e3f35510015129 "pdflatex"
+  "main.tex" 1756328699.7033 28383 1d30a46523d435f33c1684a5a5988fba ""
+  "main.toc" 1756328701.94522 2621 ad87e8fa37d001bf6c52db070873e35d "pdflatex"
   (generated)
   "main.aux"
   "main.log"

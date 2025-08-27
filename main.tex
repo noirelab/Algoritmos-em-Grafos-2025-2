@@ -296,6 +296,105 @@ sumario = abnt-6027-2012]{report}
 
 	\section{Terminologias}\label{sec:terminologias}
 
+A terminologia se inicia com a definição da orientação e adjacências do grafo.
+O grafo em questão, demonstrado na figura, não é orientado, tendo em vista sua representação (sem setas de direcionamento), bem como a sua ideia de representar apenas avenidas e/ou rodovias, que são sempre duas mãos.
+A adjacência se baseia em 5 fatores: adjacência de vértices, arestas, incidência, paralelismo e laço.
+
+A adjacência de vértices é entendida quando dois vértices são ligados entre si com uma ou mais arestas.
+No caso do grafo não direcionado, dois vértices adjacentes são sempre adjacentes entre si.
+Exemplo: $V_6$ é adjacente a $V_9$, da mesma maneira $V_9$ é adjacente a $V_6$.
+
+A adjacência de arestas é parecida, mas dessa vez, arestas são adjacentes quando compartilham um mesmo vértice.
+Exemplo: $A_{20}$ é adjacente a $A_{17}$, pois compartilham o mesmo vértice $V_{13}$.
+
+As incidências são a notação para uma aresta que liga dois vértices.
+Exemplo: $A_{5}$ é incidente em $V_3$ e $V_{11}$ ao mesmo tempo devido ao grafo ser não orientado.
+
+Arestas paralelas são duas arestas que ligam o mesmo par de vértices.
+No grafo em questão não existem arestas paralelas.
+
+Por fim, o laço é uma aresta que liga o vértice nele mesmo.
+No grafo em questão não existe laço, tendo em vista que as arestas representam avenidas que vão de uma cidade e/ou distrito até outra, o que torna impensável uma aresta que liga um vértice a si próprio.
+
+Terminando de falar das adjacências, tem-se a aplicação multívoca $\Gamma$, que representa os sucessores de um vértice, ou de forma mais simples, os vértices que são ligados ao vértice em questão.
+
+\[
+\begin{alignedat}{2}
+\Gamma(1)  &= (2,3,4)      &\quad \Gamma(9)  &= (6,13) \\
+\Gamma(2)  &= (1,6)        &\quad \Gamma(10) &= (6,11,13) \\
+\Gamma(3)  &= (1,11)       &\quad \Gamma(11) &= (3,7,10,12,15) \\
+\Gamma(4)  &= (1,5,8)      &\quad \Gamma(12) &= (7,8,11,15) \\
+\Gamma(5)  &= (4,8)        &\quad \Gamma(13) &= (9,10,14) \\
+\Gamma(6)  &= (2,9,10)     &\quad \Gamma(14) &= (13,15) \\
+\Gamma(7)  &= (11,12)      &\quad \Gamma(15) &= (11,14,16) \\
+\Gamma(8)  &= (4,5,12)     &\quad \Gamma(16) &= (15)
+\end{alignedat}
+\]
+
+Existe também a aplicação gama inversa, que seria para os vértices que se ligam em $V$ mas $V$ não se liga nos vértices.
+No entanto, só é possível fazer essa aplicação em grafos direcionados, pois eles têm direcionamento.
+Já no grafo não direcionado, toda aresta que vai, volta.
+
+Junto da aplicação, é possível calcular o grau de cada vértice, que em um grafo não direcionado é basicamente o número de vértices ligados ao $V$ em questão (evidenciado na aplicação gama).
+Em um grafo direcionado, o cálculo é basicamente o mesmo, só que somando também com a aplicação inversa.
+
+\[
+\begin{aligned}
+V_1 &= 3, \
+V_2 &= 2 \\
+V_3 &= 2, \
+V_4 &= 3 \\
+V_5 &= 2, \
+V_6 &= 3 \\
+V_7 &= 2, \
+V_8 &= 3 \\
+V_9 &= 2, \
+V_{10} &= 3 \\
+V_{11} &= 5, \
+V_{12} &= 4 \\
+V_{13} &= 3,\
+V_{14} &= 2 \\
+V_{15} &= 3,\
+V_{16} &= 1
+\end{aligned}
+\]
+
+\[
+\text{Ordem do grafo} = 16 \qquad \text{Tamanho do grafo} = 22
+\]
+
+Continuando na ligação entre os vértices, podemos gerar conjuntos de ligações chamadas de cadeia e ciclo.
+No caso do grafo não direcionado, uma cadeia é um conjunto de ligações no grafo que levam de um $V_X$ para um $V_Y$.
+
+Exemplo de cadeia:
+\[
+C(V_1 \rightarrow V_{16}) = ((V_1,V_4),(V_4,V_8),(V_8,V_{12}),(V_{12},V_{15}),(V_{15},V_{16})).
+\]
+
+E o ciclo é uma cadeia, mas o último vértice visitado é o mesmo que se inicia, ou seja, um conjunto de ligações que levam de $V_X$ para $V_X$.
+
+Exemplo de ciclo:
+\[
+C(V_6 \rightarrow V_6) = ((V_6,V_9),(V_9,V_{13}),(V_{13},V_{10}),(V_{10},V_6)).
+\]
+
+Podemos também classificar as cadeias e ciclos em alguns tipos, dentre eles Elementar e Simples.
+No caso, a cadeia/ciclo elementar é quando todos os vértices são distintos, ou seja, a cadeia ou ciclo passa pelo vértice apenas uma vez.
+Já a cadeia/ciclo simples é quando a cadeia passa por uma aresta apenas uma vez.
+
+Exemplos de cadeia/ciclo elementar:
+\[
+C(V_4 \rightarrow V_4) = ((V_4,V_5),(V_5,V_8),(V_8,V_4))
+\]
+\[
+C(V_7 \rightarrow V_7) = ((V_7,V_{12}),(V_{12},V_{15}),(V_{15},V_{11}),(V_{11},V_7))
+\]
+
+Também é possível classificar em cadeia/ciclo euleriano e hamiltoniano.
+Euleriano é quando todas as arestas são percorridas exatamente uma vez, e hamiltoniano é quando todos os vértices são percorridos exatamente uma vez.
+
+No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tipos, pois qualquer caminho teria de passar por alguma aresta ou vértice mais de uma vez ou deixar alguma aresta/vértice de fora do caminho.
+
 
 	\section{Tipos de Grafos}\label{sec:tiposGrafos}
 
