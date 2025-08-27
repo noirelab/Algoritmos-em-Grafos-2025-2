@@ -18,18 +18,18 @@
 \contentsline {section}{\numberline {4.3}Soma}{18}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Decomposição}{19}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Remoção}{19}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Fusão de vértices}{19}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Contração}{19}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Buscas}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Busca em Largura}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Busca em Profundidade}{20}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Componentes Fortemente Conexos}{20}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Considerações de Eficiência}{20}{section.5.4}%
-\contentsline {chapter}{\numberline {6}CAMINHO MÍNIMO}{21}{chapter.6}%
-\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{22}{chapter.7}%
-\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{23}{chapter.8}%
-\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{24}{chapter.9}%
-\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{25}{chapter.10}%
-\contentsline {chapter}{\numberline {11}PLANARIDADE}{26}{chapter.11}%
-\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{27}{chapter.12}%
-\contentsline {chapter}{REFERÊNCIAS}{28}{chapter*.7}%
+\contentsline {section}{\numberline {4.6}Fusão de vértices}{20}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Contração}{21}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Buscas}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Busca em Largura}{22}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Busca em Profundidade}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Componentes Fortemente Conexos}{22}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Considerações de Eficiência}{22}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CAMINHO MÍNIMO}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{24}{chapter.7}%
+\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{25}{chapter.8}%
+\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{26}{chapter.9}%
+\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{27}{chapter.10}%
+\contentsline {chapter}{\numberline {11}PLANARIDADE}{28}{chapter.11}%
+\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{29}{chapter.12}%
+\contentsline {chapter}{REFERÊNCIAS}{30}{chapter*.10}%

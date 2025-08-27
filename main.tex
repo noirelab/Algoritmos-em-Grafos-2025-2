@@ -24,6 +24,7 @@ sumario = abnt-6027-2012]{report}
 \usepackage{subcaption}
 \usepackage{amsmath}
 \setcounter{MaxMatrixCols}{20}
+\usepackage{textcomp}
 
 % --- Listagens de código
 \usepackage{listings}
@@ -418,7 +419,7 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
         %     \centering
         % 	\label{fig:uniaoGrafos}
         % 	\includegraphics[width=0.7\textwidth]{figuras/subgrafos/subgrafo1.png}
-        % 	\caption{Sub-Grafo 1}
+        % 	\caption{subgrafo 1}
         % \end{figure}
         \begin{figure}[!htb]
             \centering % Centraliza o conjunto de subfiguras na página
@@ -426,18 +427,18 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
             \begin{subfigure}[b]{0.48\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo1.png} % Substitua pelo caminho da sua imagem
-                \caption{Sub-Grafo 1}
+                \caption{subgrafo 1}
                 \label{fig:imagem1}
             \end{subfigure}
             \hfill % Adiciona um espaço flexível entre as imagens
             \begin{subfigure}[b]{0.48\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo2.png} % Substitua pelo caminho da sua imagem
-                \caption{Sub-Grafo 2}
+                \caption{subgrafo 2}
                 \label{fig:imagem2}
             \end{subfigure}
 
-            \caption{Sub-Grafos}
+            \caption{subgrafos}
             \label{fig:duasFiguras}
         \end{figure}
 
@@ -446,7 +447,7 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo1usubgrafo2.png}
-        \caption{União dos Sub-Grafos}
+        \caption{União dos subgrafos}
         \label{fig:uniaoGrafos}
     \end{figure}
 
@@ -457,12 +458,12 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
         \]
 
         Sendo $G_3$ a intersecção de $G_1$ e $G_2$, $G_3$ é um subgrafo de ambos os grafos originais.
-        Aplicando a operação de intersecção nos sub-grafos da seção \ref{sec:uniao}, temos:
+        Aplicando a operação de intersecção nos subgrafos da seção \ref{sec:uniao}, temos:
 
         \begin{figure}[!h]
             \centering
             \includegraphics[width=0.4\textwidth]{figuras/subgrafos/subgrafo_inter.png}
-            \caption{Intersecção dos Sub-Grafos da figura 4.1}
+            \caption{Intersecção dos subgrafos da figura 4.1}
             \label{fig:intersecaoGrafos}
         \end{figure}
 
@@ -475,8 +476,8 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
 
     \begin{figure}[!h]
         \centering
-        \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_soma.png}
-        \caption{Soma dos Sub-Grafos da figura 4.1}
+        \includegraphics[width=0.9\textwidth]{figuras/subgrafos/subgrafo_soma.png}
+        \caption{Soma dos subgrafos da figura 4.1}
             \label{fig:somaGrafos}
     \end{figure}
 
@@ -486,7 +487,7 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
     V_3 = V_1 \times V_2 = \{(u,v):u\in V_1,\; v\in V_2\}
     \]
 
-    O conjunto de arestas se baseia na regra da adjacência, uma aresta entre dois vértices $(u, v)$ e $(u_1, v_1)$ em $V_3$ se e somente se eles são adjacentes em $G_1$ e $G_2$. Traduzindo para a fórmula:
+    O conjunto de arestas se baseia na regra da adjacência, uma aresta entre dois vértices $(u, v)$ e $(u_1, v_1)$ em $V_3$ se e somente se eles são adjacentes em $G_1$ e $G_2$, tendo assim um grafo  $G_1 \times G_2$. Traduzindo para a fórmula:
 
     \[ %SOMA DIRETA%
     G_3 = G_1+G_2=\big(V_1\cup V_2,\;E_1\cup E_2\cup \{\{u,v\}:u\in V_1,\; v\in V_2\}\big).
@@ -495,21 +496,61 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
     \begin{figure}[!h]
         \centering
         \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_soma_direta.png}
-        \caption{Soma Direta dos Sub-Grafos da figura 4.1}
+        \caption{Soma Direta dos subgrafos da figura 4.1}
             \label{fig:somaDiretaGrafos}
     \end{figure}
 
 	% Soma direta
     % soma
-
 	\section{Decomposição}\label{sec:decomposicao}
+    A decomposição de um grafo $G$ é a partição de seu conjunto de arestas em subgrafos distintos, sendo assim, um grafo é decomposto em dois subgrafos $G_1$ e $G_2$ se a união original é $G_3 = G_1 \cup G_2$ e sua intersecção é um grafo nulo $G_1 \cap G_2 = V_0$, implicando que $G$ pertence exclusivamente a $G_1$ ou $G_2$. Decompondo o subgrafo de fig. \ref{sec:soma} temos os subgrafos originais (a) e (b) de fig. \ref{sec:uniao}.
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figuras/images.png}
+        \caption{PEREIRA. W, 2021}
+            \label{fig:decomposicao}
+    \end{figure}
 
 	\section{Remoção}\label{sec:remocao}
+    A remoção de um vértice ou aresta de um grafo $G$ resulta em um subgrafo $G'$, junto com todas as arestas incidentes ao vértice removido. A remoção de uma aresta/arco é representada por $G - a$ e a remoção de um vértice é representada por $G - v$. O impacto da remoção na conectividade de um grafo é uma métrica crucial para a avaliação de robustez do grafo.
+
+    A remoção de uma aresta pode aumentar o número de componentes interligados se a aresta for uma ponte, ou seja, se sua remoção desconecta o grafo. Do mesmo jeito, a remoção de um vértice pode ocasionar um efeito similar se o vértice for um ponto de articulação.
+
+    Aplicando a remoção do $V_3$ no subgrafo (a) da seção \ref{sec:uniao} e a remoção das arestas $A_{18}$ e $A_{21}$, obtemos o grafo seguinte:
+
+    \begin{figure}[!h]
+            \centering % Centraliza o conjunto de subfiguras na página
+
+            \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo_remocao_vertice.png} % Substitua pelo caminho da sua imagem
+                \caption{Remoção de vértice do subgrafo 4.1. (a)}
+                \label{fig:remocaoVertice}
+            \end{subfigure}
+            \hfill % Adiciona um espaço flexível entre as imagens
+            \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo_remocao_aresta.png} % Substitua pelo caminho da sua imagem
+                \caption{Remoção de arestas do subgrafo 4.1. (b)}
+                \label{fig:remocaoAresta}
+            \end{subfigure}
+
+            \caption{Remoções}
+            \label{fig:duasRemocoes}
+        \end{figure}
 
 	% Remoção de uma aresta/arco
 	% remoção de um vértice
-
 	\section{Fusão de vértices}\label{sec:fusao}
+    A fusão de vértices é uma operação que transforma um grafo ao substituir dois ou mais vértices por um único vértice, mantendo as arestas que conectam os vértices originais ao novo vértice. Uma característica distintiva da fusão é que ela reduz o número de vértices do grafo em uma unidade, mas o número total de arestas permanece inalterado.Essa operação é útil em várias aplicações, como simplificação de grafos e redução de complexidade.
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.425\textwidth]{figuras/subgrafos/fusao.png}
+        \caption{Fusão dos vértices 1 e 15}
+            \label{fig:fusao}
+    \end{figure}
 
 	\section{Contração}\label{sec:contracao}
 	% Contração de dois vértices

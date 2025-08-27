@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 18:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,6 +353,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count320
 \lst@gtempboxa=\box58
@@ -403,7 +405,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 65.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -420,24 +422,24 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -492,7 +494,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 65.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -506,7 +508,7 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 2285) in paragraph at lines 88--95
+Underfull \hbox (badness 2285) in paragraph at lines 89--96
 \T1/phv/m/n/12 Gra-du-a-ção apre-sen-tado como re-qui-sito
  []
 
@@ -518,18 +520,18 @@ Underfull \hbox (badness 2285) in paragraph at lines 88--95
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 	\newpage
+l.111 	\newpage
                 [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 	\newpage
+l.114 	\newpage
                 [2]
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
@@ -547,12 +549,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 [6]
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 179.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 180.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 
-LaTeX Warning: Command \' invalid in math mode on input line 180.
+LaTeX Warning: Command \' invalid in math mode on input line 181.
 
 Missing character: There is no í in font cmr12!
 
@@ -573,10 +575,10 @@ Cap\'{\i }tulo 2.
 <figuras/grafoGeometrico.png, id=254, 668.4975pt x 533.1117pt>
 File: figuras/grafoGeometrico.png Graphic file (type png)
 <use figuras/grafoGeometrico.png>
-Package pdftex.def Info: figuras/grafoGeometrico.png  used on input line 251.
+Package pdftex.def Info: figuras/grafoGeometrico.png  used on input line 252.
 (pdftex.def)             Requested size: 455.24411pt x 363.05617pt.
 
-Overfull \hbox (33.65958pt too wide) in paragraph at lines 251--253
+Overfull \hbox (33.65958pt too wide) in paragraph at lines 252--254
  [][]\T1/phv/m/n/12 Fonte: 
  []
 
@@ -587,10 +589,10 @@ Overfull \hbox (33.65958pt too wide) in paragraph at lines 251--253
 [12]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Reference `fig:grafGeometrioco' on page 13 undefined on input line 295.
+LaTeX Warning: Reference `fig:grafGeometrioco' on page 13 undefined on input line 296.
 
 
-Overfull \hbox (0.45244pt too wide) in paragraph at lines 307--309
+Overfull \hbox (0.45244pt too wide) in paragraph at lines 308--310
 []\T1/phv/m/n/12 A ad-ja-cên-cia de ares-tas é pa-re-cida, mas dessa vez, ares-tas são ad-ja-cen-tes quando
  []
 
@@ -607,17 +609,17 @@ Cap\'{\i }tulo 4.
 <figuras/subgrafos/subgrafo1.png, id=286, 2155.05125pt x 1665.22125pt>
 File: figuras/subgrafos/subgrafo1.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 428.
+Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 429.
 (pdftex.def)             Requested size: 218.51521pt x 168.84412pt.
 <figuras/subgrafos/subgrafo2.png, id=288, 1795.70876pt x 1765.59625pt>
 File: figuras/subgrafos/subgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo2.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 435.
+Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 436.
 (pdftex.def)             Requested size: 218.51521pt x 214.8259pt.
 <figuras/subgrafos/subgrafo1usubgrafo2.png, id=289, 3342.4875pt x 2092.81876pt>
 File: figuras/subgrafos/subgrafo1usubgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1usubgrafo2.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on input line 448.
+Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on input line 449.
 (pdftex.def)             Requested size: 364.19667pt x 228.00734pt.
 
 
@@ -627,7 +629,7 @@ Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on inpu
 <figuras/subgrafos/subgrafo_inter.png, id=299, 593.21625pt x 610.28pt>
 File: figuras/subgrafos/subgrafo_inter.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_inter.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input line 464.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input line 465.
 (pdftex.def)             Requested size: 182.09486pt x 187.33173pt.
 
 
@@ -635,12 +637,12 @@ Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input lin
 <figuras/subgrafos/subgrafo_soma.png, id=308, 896.34875pt x 554.07pt>
 File: figuras/subgrafos/subgrafo_soma.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_soma.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_soma.png  used on input line 478.
-(pdftex.def)             Requested size: 364.19667pt x 225.12419pt.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_soma.png  used on input line 479.
+(pdftex.def)             Requested size: 409.71692pt x 253.2605pt.
 <figuras/subgrafos/subgrafo_soma_direta.png, id=310, 1347.0325pt x 759.83875pt>
 File: figuras/subgrafos/subgrafo_soma_direta.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_soma_direta.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_soma_direta.png  used on input line 497.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_soma_direta.png  used on input line 498.
 (pdftex.def)             Requested size: 364.19667pt x 205.43745pt.
 
 
@@ -649,58 +651,84 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [18 <./figuras/subgrafos/subgrafo_soma.png>]
+<figuras/images.png, id=318, 413.545pt x 122.4575pt>
+File: figuras/images.png Graphic file (type png)
+<use figuras/images.png>
+Package pdftex.def Info: figuras/images.png  used on input line 510.
+(pdftex.def)             Requested size: 364.19667pt x 107.847pt.
 
-[19 <./figuras/subgrafos/subgrafo_soma_direta.png>]
+
+[19 <./figuras/subgrafos/subgrafo_soma_direta.png> <./figuras/images.png>]
+<figuras/subgrafos/subgrafo_remocao_vertice.png, id=328, 1031.855pt x 628.3475pt>
+File: figuras/subgrafos/subgrafo_remocao_vertice.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo_remocao_vertice.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_vertice.png  used on input line 527.
+(pdftex.def)             Requested size: 218.51521pt x 133.05946pt.
+<figuras/subgrafos/subgrafo_remocao_aresta.png, id=329, 839.135pt x 788.9475pt>
+File: figuras/subgrafos/subgrafo_remocao_aresta.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo_remocao_aresta.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_aresta.png  used on input line 534.
+(pdftex.def)             Requested size: 218.51521pt x 205.44653pt.
+<figuras/subgrafos/fusao.png, id=330, 790.955pt x 771.88374pt>
+File: figuras/subgrafos/fusao.png Graphic file (type png)
+<use figuras/subgrafos/fusao.png>
+Package pdftex.def Info: figuras/subgrafos/fusao.png  used on input line 550.
+(pdftex.def)             Requested size: 193.48013pt x 188.81282pt.
+
+
+[20 <./figuras/subgrafos/subgrafo_remocao_vertice.png> <./figuras/subgrafos/subgrafo_remocao_aresta.png> <./figuras/subgrafos/fusao.png>]
+
+[21]
 Cap\'{\i }tulo 5.
-
-
-[20
-
-]
-Cap\'{\i }tulo 6.
-
-
-[21
-
-]
-Cap\'{\i }tulo 7.
 
 
 [22
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 6.
 
 
 [23
 
 ]
-Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 7.
 
 
 [24
 
 ]
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 8.
 
 
 [25
 
 ]
-Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 9.
 
 
 [26
 
 ]
-Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 10.
 
 
 [27
 
 ]
+Cap\'{\i }tulo 11.
+
 
 [28
+
+]
+Cap\'{\i }tulo 12.
+
+
+[29
+
+]
+
+[30
 
 
 ] (./main.aux)
@@ -713,21 +741,21 @@ L3 programming layer <2025-08-13>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B9258DB55C366BE20E3F35510015129;4668.
+(rerunfilecheck)             Checksum: A0BC2CF088C682F20636012A3055484A;4669.
  ) 
 Here is how much of TeX's memory you used:
- 15338 strings out of 467800
- 243371 string characters out of 5431888
- 690131 words of memory out of 5000000
- 43730 multiletter control sequences out of 15000+600000
+ 15407 strings out of 467800
+ 245342 string characters out of 5431888
+ 690690 words of memory out of 5000000
+ 43791 multiletter control sequences out of 15000+600000
  649393 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,864b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (30 pages, 580230 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (32 pages, 704279 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
