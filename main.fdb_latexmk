@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756311359.91472 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756311360.73019 0
-  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756311359.60199 16488 58b79d6a35177883399780a857056c22 ""
+["pdflatex"] 1756318686.53722 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1756318688.08751 0
+  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1756318686.11643 18674 0347530e2f2321a6f89875fe12d99402 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -53,6 +53,9 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls" 1748806692 23203 f495085ac76be4e20c5e1e88646a241e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo" 1748806692 8449 8dc66c6c313c8eb2d774af83bca435dd ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1739306980 46850 d87daedc2abdc653769a6f1067849fe0 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
@@ -92,10 +95,13 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755981886 5528033 0c358b2aae4aa21399659c485f38b4ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755982043 3605797 71a688b38086935756fd2bb76b625872 ""
   "/usr/local/texlive/2025/texmf.cnf" 1755981878.22412 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "main.aux" 1756311360.64882 7535 907f8d729fa8fe9d0507b41231e1179c "pdflatex"
-  "main.out" 1756311360.64982 4668 97892929a2cbbc528e8e3084817852c9 "pdflatex"
-  "main.tex" 1756311359.60199 16488 58b79d6a35177883399780a857056c22 ""
-  "main.toc" 1756311360.65082 2621 424dffe795e1f67ca89cefec39a5cf86 "pdflatex"
+  "figuras/subgrafos/subgrafo1.png" 1756314861.23626 70354 75aa555b2101458a403c1cf46af0c53d ""
+  "figuras/subgrafos/subgrafo1usubgrafo2.png" 1756315720.90253 138881 d9588565f5c3d3ae4163853cb9008f03 ""
+  "figuras/subgrafos/subgrafo2.png" 1756314950.93939 77243 391ff8d3476521f131c4b87a511daa8b ""
+  "main.aux" 1756318688.02292 8299 a8ab156c9d4e3b4aa9824696fdb1f103 "pdflatex"
+  "main.out" 1756318688.02492 4668 11a4fcc8619b5cdfd744b1f20bd91a6a "pdflatex"
+  "main.tex" 1756318686.11643 18674 0347530e2f2321a6f89875fe12d99402 ""
+  "main.toc" 1756318688.02492 2621 dada340c33fe10fada742546b7c30cfd "pdflatex"
   (generated)
   "main.aux"
   "main.log"

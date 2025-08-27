@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 13:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 AUG 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,25 +264,50 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \JustifyingParindent=\skip101
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count306
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count307
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count304
+\lst@mode=\count308
 \lst@gtempboxa=\box56
 \lst@token=\toks24
-\lst@length=\count305
-\lst@currlwidth=\dimen169
-\lst@column=\count306
-\lst@pos=\count307
-\lst@lostspace=\dimen170
-\lst@width=\dimen171
-\lst@newlines=\count308
-\lst@lineno=\count309
-\lst@maxwidth=\dimen172
+\lst@length=\count309
+\lst@currlwidth=\dimen177
+\lst@column=\count310
+\lst@pos=\count311
+\lst@lostspace=\dimen178
+\lst@width=\dimen179
+\lst@newlines=\count312
+\lst@lineno=\count313
+\lst@maxwidth=\dimen180
  (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count310
-\lst@skipnumbers=\count311
+\c@lstnumber=\count314
+\lst@skipnumbers=\count315
 \lst@framebox=\box57
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
@@ -294,32 +319,32 @@ Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks25
-\c@algorithm=\count312
+\c@algorithm=\count316
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
  (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count313
-\c@ALG@rem=\count314
-\c@ALG@nested=\count315
+\c@ALG@line=\count317
+\c@ALG@rem=\count318
+\c@ALG@nested=\count319
 \ALG@tlm=\skip102
 \ALG@thistlm=\skip103
-\c@ALG@Lnr=\count316
-\c@ALG@blocknr=\count317
-\c@ALG@storecount=\count318
-\c@ALG@tmpcounter=\count319
+\c@ALG@Lnr=\count320
+\c@ALG@blocknr=\count321
+\c@ALG@storecount=\count322
+\c@ALG@tmpcounter=\count323
 \ALG@tmplength=\skip104
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 65.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count320
+\l__color_backend_stack_int=\count324
 )
 
 LaTeX Warning: Unused global option(s):
@@ -331,24 +356,24 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -386,16 +411,16 @@ LaTeX Font Info:    ... okay on input line 64.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen173
+\scratchcounter=\count325
+\scratchdimen=\dimen181
 \scratchbox=\box58
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\nofMPsegments=\count326
+\nofMParguments=\count327
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen174
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen182
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
 \everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -403,27 +428,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 65.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\c@lstlisting=\count327
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count331
 
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 2285) in paragraph at lines 88--95
+Underfull \hbox (badness 2285) in paragraph at lines 89--96
 \T1/phv/m/n/12 Gra-du-a-згo apre-sen-tado como re-qui-sito
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 99.
+(Font)              <12> on input line 100.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 99.
+(Font)              <8> on input line 100.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 99.
+(Font)              <6> on input line 100.
 
 
 [2]
@@ -432,18 +460,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 	\newpage
+l.111 	\newpage
                 [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 	\newpage
+l.114 	\newpage
                 [2]
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
@@ -461,12 +489,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 [6]
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 176.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 177.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 
-LaTeX Warning: Command \' invalid in math mode on input line 177.
+LaTeX Warning: Command \' invalid in math mode on input line 178.
 
 Missing character: There is no н in font cmr12!
 
@@ -475,7 +503,7 @@ Missing character: There is no н in font cmr12!
 
 ]
 
-LaTeX Warning: Reference `fig:grafGeometrioco' on page 8 undefined on input line 196.
+LaTeX Warning: Reference `fig:grafGeometrioco' on page 8 undefined on input line 197.
 
 
 
@@ -484,7 +512,7 @@ LaTeX Warning: Reference `fig:grafGeometrioco' on page 8 undefined on input line
 [9]
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--220
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
 
  []
 
@@ -495,7 +523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--220
 ]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Reference `fig:grafGeometrioco' on page 11 undefined on input line 250.
+LaTeX Warning: Reference `fig:grafGeometrioco' on page 11 undefined on input line 251.
 
 
 
@@ -503,61 +531,78 @@ LaTeX Warning: Reference `fig:grafGeometrioco' on page 11 undefined on input lin
 
 ]
 Cap\'{\i }tulo 4.
+<figuras/subgrafos/subgrafo1.png, id=265, 2155.05125pt x 1665.22125pt>
+File: figuras/subgrafos/subgrafo1.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo1.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 285.
+(pdftex.def)             Requested size: 218.51521pt x 168.84412pt.
+<figuras/subgrafos/subgrafo2.png, id=267, 1795.70876pt x 1765.59625pt>
+File: figuras/subgrafos/subgrafo2.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo2.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 292.
+(pdftex.def)             Requested size: 218.51521pt x 214.8259pt.
+<figuras/subgrafos/subgrafo1usubgrafo2.png, id=268, 3342.4875pt x 2092.81876pt>
+File: figuras/subgrafos/subgrafo1usubgrafo2.png Graphic file (type png)
+<use figuras/subgrafos/subgrafo1usubgrafo2.png>
+Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on input line 305.
+(pdftex.def)             Requested size: 364.19667pt x 228.00734pt.
 
 
 [12
 
-]
+ <./figuras/subgrafos/subgrafo1.png> <./figuras/subgrafos/subgrafo2.png>]
+
+[13 <./figuras/subgrafos/subgrafo1usubgrafo2.png>]
 Cap\'{\i }tulo 5.
-
-
-[13
-
-]
-Cap\'{\i }tulo 6.
 
 
 [14
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 6.
 
 
 [15
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 7.
 
 
 [16
 
 ]
-Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 8.
 
 
 [17
 
 ]
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 9.
 
 
 [18
 
 ]
-Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 10.
 
 
 [19
 
 ]
-Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 11.
 
 
 [20
 
 ]
+Cap\'{\i }tulo 12.
+
 
 [21
+
+]
+
+[22
 
 
 ] (./main.aux)
@@ -570,21 +615,21 @@ L3 programming layer <2025-08-13>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 97892929A2CBBC528E8E3084817852C9;4668.
+(rerunfilecheck)             Checksum: 11A4FCC8619B5CDFD744B1F20BD91A6A;4668.
  ) 
 Here is how much of TeX's memory you used:
- 13158 strings out of 467800
- 204268 string characters out of 5431888
- 637605 words of memory out of 5000000
- 41592 multiletter control sequences out of 15000+600000
- 642357 words of font info for 59 fonts, out of 8000000 for 9000
+ 14591 strings out of 467800
+ 232682 string characters out of 5431888
+ 662555 words of memory out of 5000000
+ 43012 multiletter control sequences out of 15000+600000
+ 645247 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,864b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,864b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (23 pages, 101851 bytes).
+Output written on main.pdf (24 pages, 362906 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
