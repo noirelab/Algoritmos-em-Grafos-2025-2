@@ -553,6 +553,14 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
     \end{figure}
 
 	\section{Contração}\label{sec:contracao}
+    A contração de aresta é um caso especial da fusão de vértices, é uma operação que remove uma aresta de um grafo enquanto, simultaneamente, funde os dois vértices que ela conectava.
+
+    Se $A$ e $B$ estavam conectados por arestas paralelas, a contração pode resultar em um laço no novo vértice $AB$, o número de arestas do grafo diminui em 1 após a contração.
+    Uma contração de aresta $uv$ em um grafo tem um impacto direto nos graus dos vértices. O grau do novo vértice resultante da contração, $deg(w)$, é a soma dos graus dos vértices originais, $deg(u)$ e $deg(v)$, subtraída de duas unidades. A fórmula é:
+    \[
+    deg(w) = deg(u) + deg(v) - 2
+    \]
+
 	% Contração de dois vértices
 	% Contração de uma aresta
 
