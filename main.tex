@@ -25,8 +25,6 @@ sumario = abnt-6027-2012]{report}
 \usepackage{amsmath}
 \setcounter{MaxMatrixCols}{20}
 
-
-
 % --- Listagens de código
 \usepackage{listings}
 \lstset{
@@ -371,9 +369,36 @@ sumario = abnt-6027-2012]{report}
 
 	\section{Soma}\label{sec:soma}
     A soma de dois grafos é dividida entre dois tipos, a soma e soma direta.
+    A soma junta os vértices e arestas dos dois grafos, criando uma conexão intercomplexa. A soma dos grafos resulta em um novo, como $G_3 = G_1 + G_2$ A fórmula é dada por:
     \[
-    G_1+G_2=\big(V_1\cup V_2,\;E_1\cup E_2\cup \{\{u,v\}:u\in V_1,\; v\in V_2\}\big).
+    G_3 = G_1 + G_2 = (V_1 \cup V_2, A_1 \cup A_2 \cup \{ \forall vi \in V_1, \forall vj \in V_2, \exists(vi, vj) \})
     \]
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_soma.png}
+        \caption{Soma dos Sub-Grafos da figura 4.1}
+            \label{fig:somaGrafos}
+    \end{figure}
+
+    Seguindo o exemplo, utilizando as fig \ref{sec:uniao} novamente, podemos observar as novas arestas serem criadas, se diferindo da soma direta, a qual é uma forma de combinar dois grafos baseados em multiplicação estrutural. O conjunto de vértices resultante do produto cartesiano dos conjuntos de vértices dos grafos originais, sendo todos pares ordenados, onde o primeiro elemento pertence a $V_1$ e o segundo a $V_2$.
+
+    \[
+    V_3 = V_1 \times V_2 = \{(u,v):u\in V_1,\; v\in V_2\}
+    \]
+
+    O conjunto de arestas se baseia na regra da adjacência, uma aresta entre dois vértices $(u, v)$ e $(u_1, v_1)$ em $V_3$ se e somente se eles são adjacentes em $G_1$ e $G_2$. Traduzindo para a fórmula:
+
+    \[ %SOMA DIRETA%
+    G_3 = G_1+G_2=\big(V_1\cup V_2,\;E_1\cup E_2\cup \{\{u,v\}:u\in V_1,\; v\in V_2\}\big).
+    \]
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_soma_direta.png}
+        \caption{Soma Direta dos Sub-Grafos da figura 4.1}
+            \label{fig:somaDiretaGrafos}
+    \end{figure}
 
 	% Soma direta
     % soma
