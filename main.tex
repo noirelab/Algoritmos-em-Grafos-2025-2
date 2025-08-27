@@ -21,6 +21,7 @@ sumario = abnt-6027-2012]{report}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{ragged2e}
 \usepackage{indentfirst}
+\usepackage{subcaption}
 \usepackage{amsmath}
 \setcounter{MaxMatrixCols}{20}
 
@@ -306,7 +307,52 @@ sumario = abnt-6027-2012]{report}
 	A estrutura de dados grafos permitem algumas operações matemáticas nos seus conjuntos de vértices e arestas de modo a facilitar a execução de alguns algoritmos. As principais operações são: união, intersecção, soma, decomposição, remoção, fusão e contração. Cada uma delas são exemplificadas, respectivamente, nas Seções \ref{sec:uniao}, \ref{sec:interseccao}, \ref{sec:soma}, \ref{sec:decomposicao}, \ref{sec:remocao}, \ref{sec:fusao} e \ref{sec:contracao}.
 	
 	\section{União}\label{sec:uniao}
-	
+        A união de dois grafos, sendo eles $G_1 = (V_1, A_1)$ e $G_2 = (V_2, A_2)$, é dada por:
+        \[
+        G_1 \cup G_2 = (V_1 \cup V_2, A_1 \cup A_2)
+        \]
+
+        Esta é uma operação que apenas une os vértices e arestas dos grafos envolvidos, não adicionando nenhuma outra parte.
+        Temos como exemplo a adição do $Sub\_Grafo1$ ao grafo $Sub\_Grafo2$.
+        Onde $Sub\_Grafo1 = (V_1, V_2, V_3, V_6, V_{10}, V_{11}, a_1, a_2, a_4, a_5, a_{10}, a_{11} )$ e $Sub\_Grafo2 = (V_6, V_9, V_{10}, V_{11}, V_{13}, V_{14}, V_{15}, A_{9}, A_{10}, A_{11}, A_{16}, A_{17}, A_{18}, A_{20}, A_{21})$.
+
+        % TEMPLATE ADICIONAR IMAGEM EM LATEX
+        % \begin{figure}[!h]
+        %     \centering
+        % 	\label{fig:uniaoGrafos}
+        % 	\includegraphics[width=0.7\textwidth]{figuras/subgrafos/subgrafo1.png}
+        % 	\caption{Sub-Grafo 1}
+        % \end{figure}
+        \begin{figure}[!htb]
+            \centering % Centraliza o conjunto de subfiguras na página
+
+            \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo1.png} % Substitua pelo caminho da sua imagem
+                \caption{Sub-Grafo 1}
+                \label{fig:imagem1}
+            \end{subfigure}
+            \hfill % Adiciona um espaço flexível entre as imagens
+            \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo2.png} % Substitua pelo caminho da sua imagem
+                \caption{Sub-Grafo 2}
+                \label{fig:imagem2}
+            \end{subfigure}
+
+            \caption{Sub-Grafos}
+            \label{fig:duasFiguras}
+        \end{figure}
+
+    A aplicação da operação de união resultaria em $Sub\_Grafo1 \cup Sub\_Grafo2$, representando graficamente se dá na figura seguinte:
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo1usubgrafo2.png}
+        \caption{União dos Sub-Grafos}
+        \label{fig:uniaoGrafos}
+    \end{figure}
+
 	\section{Intersecção}\label{sec:interseccao}
 	
 	\section{Soma}\label{sec:soma}
