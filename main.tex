@@ -534,6 +534,143 @@ sumario = abnt-6027-2012]{report}
 	
 	
 	\section{Tipos de Grafos}\label{sec:tiposGrafos}
+	\textit{\textbf{Grafo nulo:}} um grafo em que seu conjunto de vértices e seu conjunto de arestas são vazios. \par
+	\textit{\textbf{Grafo Trivial ou Singleton:}} grafo com apenas um vértice.
+	\begin{figure} [H]
+		\centering
+		\caption{Singleton}%% Legenda
+		\label{fig:singleton}%% Rótulo
+		\includegraphics[width=0.1\linewidth,angle=0]{figuras/tiposgrafos/singleton.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\par
+	\textit{\textbf{Grafo Vazio:}} Grafo que não possui nenhuma aresta, apenas vértices.
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Vazio}%% Legenda
+		\label{fig:grafVazio}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafVazio.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Buquê:}} um vértice com n laços.
+	\begin{figure} [H]
+		\centering
+		\caption{Buquê}%% Legenda
+		\label{fig:buquê}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/buque.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Pseudografo:}} contém pelo menos um laço. \\ 
+	\begin{figure} [H]
+		\centering
+		\caption{Pseudografo}%% Legenda
+		\label{fig:pseudografo}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/pseudografo.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo Reflexivo:}} Pseudografo em que cada vértice possui um laço associado.\\
+		\begin{figure} [H]
+			\centering
+			\caption{Grafo Reflexivo}%% Legenda
+			\label{fig:grafReflex}%% Rótulo
+			\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafReflex.png}%% Dimensões e localização
+			\\
+			\centering{Fonte: Criação própria}%% Fonte
+		\end{figure}
+	\textit{\textbf{Multigrafo:}} Um grafo não orientado sem laços e possui no mínimo duas arestas paralelas. \\
+	\begin{figure} [H]
+		\centering
+		\caption{Multigrafo}%% Legenda
+		\label{fig:multigraf}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/multigrafo.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Multigrafo Direcionado:}} Um grafo orientado que possui laços e arestas paralelas. \\
+	\begin{figure} [H]
+		\centering
+		\caption{Multigrafo Direcionado}%% Legenda
+		\label{fig:multigrafDirec}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/multigrafoDirec.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo Simples:}} Grafo sem laços e arestas paralelas.\\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Simples}%% Legenda
+		\label{fig:grafSimples}%% Rótulo
+		\includegraphics[width=0.7\linewidth,angle=0]{figuras/tiposgrafos/grafoSimples.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo acíclico:}} Grafo sem ciclos ou circuitos.\\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Acíclico}%% Legenda
+		\label{fig:grafAcicl}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafAcicl.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo ciclo:}} É um grafo simples não orientado regular, $ C_n $ com mais de dois vértices, onde forma um ciclo, ao partir de um vértice, é possível chegar nele novamente ao passar por todos os outros.\\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Cíclico}%% Legenda
+		\label{fig:grafCiclo}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafCiclo.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo roda:}} É um grafo não orientado simples, $ W_n $, com $ n+1 $ vértices, onde n é maior que 2, onde existe um vértice $ V_n+1 $ responsável por conectar os demais vértices entre si. \\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Roda:}%% Legenda
+		\label{fig:grafRoda}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafRoda.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo regular:}} Grafo, $ K_v $, onde todos os vértices possuem o mesmo grau, ou seja, mesmo número de vértices o que resulta em um grafo onde todos se conectam. \\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Regular}%% Legenda
+		\label{fig:grafRegular}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafRegular.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo simétrico:}} Um grafo orientado, onde, para cada arco $ (v_i, v_j) \in X$ existe um arco $ (v_j,v_i)\in X $, em outras palavras, cada vértice possui um arco nos dois sentidos, formando simetria entre os arcos  \\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo Simétrico}%% Legenda
+		\label{fig:grafSimetrico}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafSimetrico.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Grafo assimétrico:}}  Um grafo orientado, onde, para cada arco $ (v_i, v_j) \in X$ não existe um arco $ (v_j,v_i)\in X $, em outras palavras, cada vértice possui apenas um arco em apenas um sentido \\
+	\begin{figure} [H]
+		\centering
+		\caption{Grafo assimétrico}%% Legenda
+		\label{fig:grafAssimet}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafAssimet.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	\textit{\textbf{Torneio:}} um grafo orientado que, para cada par $ (v_i, v_j) \in V $ com $ v_i \neq v_j $, $ (v_i, v_j)\in E $ é um arco ou $ (v_j, v_i) \in E $ é um arco, mas não ambos, fazendo com que exista apenas um arco entre dois vértices.
+	\begin{figure} [H]
+		\centering
+		\caption{Torneio}%% Legenda
+		\label{fig:torneio}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/torneio.png}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
 	
 	
 	\chapter{Operações}\label{cap:operacoes}
