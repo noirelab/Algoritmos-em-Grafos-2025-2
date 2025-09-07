@@ -694,14 +694,14 @@ Esse tipo de grafo possui algumas observações:
 
 \textit{\textbf{Grafo conexo:}} Para todos os pares de vértices $\{v_i, v_j \subset V\}$, existe uma cadeia de arcos e arestas de $v_i$ para $v_j$
 
-% \begin{figure} [H]
-% 	\centering
-% 	\caption{Grafo Completo}%% Legenda
-% 	\label{fig:completo}%% Rótulo
-% 	\includegraphics[width=0.8\linewidth,angle=0]{figuras/tiposgrafos/grafo_completo.png}%% Dimensões e localização
-% 	\\
-% 	\centering{Fonte: Criação própria}%% Fonte
-% \end{figure}
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Conexo}%% Legenda
+	\label{fig:conexo}%% Rótulo
+	\includegraphics[width=0.8\linewidth,angle=0]{figuras/grafo_conexo.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 Observações:
 \begin{itemize}
@@ -713,6 +713,16 @@ Observações:
 
 \textit{\textbf{Grafo Fortemente Conexo (f-conexo):}} É um grafo direcionado com todos seus pares de vértices ligados por, pelo menos, um caminho de cada sentido. Cada vértice pode se alcançado se parte de qualquer outro vértice e pode alcançar qualquer outro.
 
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Fortemente Conexo}%% Legenda
+	\label{fig:f-conexo}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/forte.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
+
+
 \begin{itemize}
     \item Cada par de vértices participa de um circuito.
     \item O grafo $G(V, E)$ que não é f-conexo é formado por, no mínimo, dois subgrafos fortemente conexos, disjutnos em relação aos vértices e maximais em relação à inclusão.
@@ -720,6 +730,16 @@ Observações:
 
 \textbf{Grafo Planar}:
 Um grafo é dito planar quando pode ser desenhado em um plano de forma que nenhuma de suas arestas se intercepte com outra.
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Planar}%% Legenda
+	\label{fig:planar}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/grafo_planar.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
+
 \textit{Observações:}
 \begin{enumerate}
     \item Para $n > 4$, o grafo completo $K_n$ não pode ser representado de forma planar.
@@ -731,24 +751,78 @@ Um grafo é dito planar quando pode ser desenhado em um plano de forma que nenhu
 Um grafo é euleriano quando admite um ciclo que percorre todas as arestas exatamente uma vez.
 Exemplo: $C_{11} = \{u_1, u_2, u_3, u_4, u_5, u_3, u_1, u_6, u_2, u_7, u_3, u_6, u_7, u_1\}$.
 
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Euleriano}%% Legenda
+	\label{fig:euler}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/grafo_euleriano.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
+
 \textbf{Grafo Hamiltoniano}:
 Um grafo é dito hamiltoniano quando possui um ciclo que visita todos os vértices exatamente uma vez.
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Hamiltoniano}%% Legenda
+	\label{fig:hamilton}%% Rótulo
+	\includegraphics[width=0.2\linewidth,angle=0]{figuras/grafo_hamiltoniano.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 \textbf{Grafo Bipartido}:
 Um grafo bipartido é aquele em que o conjunto de vértices pode ser dividido em duas partes disjuntas, $V_A$ e $V_B$, de modo que não existam arestas conectando dois vértices do mesmo conjunto. Toda aresta liga um vértice de $V_A$ a outro de $V_B$.
 
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Bipartido}%% Legenda
+	\label{fig:bipartido}%% Rótulo
+	\includegraphics[width=0.3\linewidth,angle=0]{figuras/grafo_bipartido.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
+
 \textbf{Grafo Bipartido Completo}:
 É um grafo bipartido no qual cada vértice de $V_A$ está conectado a todos os vértices de $V_B$.
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Bipartido Completo}%% Legenda
+	\label{fig:bipartido_completo}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/grafo_bipartido_completo.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 \textbf{Grafo $k$-partido (ou $k$-colorível)}:
 Um grafo é $k$-partido quando seus vértices podem ser separados em $k$ subconjuntos disjuntos, sem arestas internas a cada subconjunto.
 \textit{Nota:} um grafo $2$-partido é equivalente a um grafo bipartido.
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo k-partido}%% Legenda
+	\label{fig:kpartido}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/grafo_k-partido.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 \textbf{Grafo Rotulado}:
 Cada vértice (ou aresta) possui associado um identificador ou rótulo.
 
 \textbf{Grafo Ponderado (ou Valorado)}:
 É um grafo no qual cada aresta possui um valor (peso) associado. Formalmente, seja $G = (V, X)$, em que $V$ é o conjunto de vértices e $X$ o conjunto de arestas; existe então uma função $P: X \to C_v$, onde $C_v$ representa o conjunto de pesos atribuídos às arestas.
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Ponderado}%% Legenda
+	\label{fig:ponderado}%% Rótulo
+	\includegraphics[width=0.2\linewidth,angle=0]{figuras/grafo_ponderado.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 \textit{Observações:}
 \begin{enumerate}
@@ -762,6 +836,15 @@ Dado um grafo não orientado $G(V,A)$, o grafo complementar $G^c(V,A')$ é defin
 \[
 (v_i, v_j) \in A \implies (v_i, v_j) \notin A' \quad \text{e} \quad (v_i, v_j) \notin A \implies (v_i, v_j) \in A'.
 \]
+
+\begin{figure} [H]
+	\centering
+	\caption{Grafo Complementar}%% Legenda
+	\label{fig:complementar}%% Rótulo
+	\includegraphics[width=0.4\linewidth,angle=0]{figuras/grafo_complemetnar.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
 
 \chapter{Operações}\label{cap:operacoes}
 
@@ -839,7 +922,7 @@ A soma junta os vértices e arestas dos dois grafos, criando uma conexão interc
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figuras/subgrafos/subgrafo_soma.png}
+	\includegraphics[width=0.9\textwidth]{figuras/soma_NOVO.png}
 	\caption{Soma dos subgrafos da figura 4.1}
 	\label{fig:somaGrafos}
 \end{figure}
@@ -858,7 +941,7 @@ O conjunto de arestas se baseia na regra da adjacência, uma aresta entre dois v
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_soma_direta.png}
+	\includegraphics[width=0.6\textwidth]{figuras/subgrafos/subgrafo_soma_direta.png}
 	\caption{Soma Direta dos subgrafos da figura 4.1}
 	\label{fig:somaDiretaGrafos}
 \end{figure}
@@ -870,8 +953,8 @@ A decomposição de um grafo $G$ é a partição de seu conjunto de arestas em s
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{figuras/images.png}
-	\caption{PEREIRA. W, 2021}
+	\includegraphics[width=1\textwidth]{figuras/decomposicao.png}
+	\caption{Decomposição do subrafo da figura 4.1}
 	\label{fig:decomposicao}
 \end{figure}
 
@@ -887,15 +970,15 @@ Aplicando a remoção do $V_3$ no subgrafo (a) da seção \ref{sec:uniao} e a re
 
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo_remocao_vertice.png} % Substitua pelo caminho da sua imagem
+		\includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_remocao_vertice.png} % Substitua pelo caminho da sua imagem
 		\caption{Remoção de vértice do subgrafo 4.1. (a)}
 		\label{fig:remocaoVertice}
 	\end{subfigure}
 	\hfill % Adiciona um espaço flexível entre as imagens
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{figuras/subgrafos/subgrafo_remocao_aresta.png} % Substitua pelo caminho da sua imagem
-		\caption{Remoção de arestas do subgrafo 4.1. (b)}
+		\includegraphics[width=0.8\textwidth]{figuras/subgrafos/subgrafo_remocao_aresta.png} % Substitua pelo caminho da sua imagem
+		\caption{Remoção de arestas do subgrafo 2 4.1. (b)}
 		\label{fig:remocaoAresta}
 	\end{subfigure}
 
@@ -910,7 +993,7 @@ A fusão de vértices é uma operação que transforma um grafo ao substituir do
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.425\textwidth]{figuras/subgrafos/fusao.png}
+	\includegraphics[width=0.425\textwidth]{figuras/fusao_novo_novo.png}
 	\caption{Fusão dos vértices 1 e 15}
 	\label{fig:fusao}
 \end{figure}
@@ -923,6 +1006,13 @@ Uma contração de aresta $uv$ em um grafo tem um impacto direto nos graus dos v
 \[
 	deg(w) = deg(u) + deg(v) - 2
 \]
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.425\textwidth]{figuras/contracao_novo_novo.png}
+	\caption{Contração de vértice e vértice.}
+	\label{fig:fusao}
+\end{figure}
 
 % Contração de dois vértices
 % Contração de uma aresta
