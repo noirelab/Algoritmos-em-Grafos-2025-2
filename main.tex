@@ -845,6 +845,138 @@ Dado um grafo não orientado $G(V,A)$, o grafo complementar $G^c(V,A')$ é defin
 	\\
 	\centering{Fonte: Criação própria}%% Fonte
 \end{figure}
+%IAN
+
+\textbf{Subgrafo gerador ou grafo parcial}:  
+Grafo que contém o mesmo conjunto de vértices, porém, com pelo menos uma aresta removida.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Subgrafogerador.png}
+    \caption{Exemplo de grafo parcial}
+\end{figure}
+
+\medskip
+
+\textbf{Subgrafo induzido}:  
+Subgrafo induzido é um subgrafo feito a partir de um conjunto de vértices do grafo original, não podendo ser descartada nenhuma aresta entre o conjunto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Subgrafoinduzido.png}
+    \caption{Exemplo de subgrafo induzido}
+\end{figure}
+
+\medskip
+
+\textbf{Clique}:  
+É um subgrafo completo.
+
+\medskip
+
+\textbf{Árvore}:  
+É um grafo não direcionado que tem ordem (quantidade de vértices) maior ou igual a 2.  
+
+É importante ressaltar algumas propriedades para definir se um grafo é uma árvore:
+\begin{enumerate}
+    \item $G$ é conexo e sem ciclos;
+    \item $G$ é sem ciclos e tem $|V|-1$ arestas;
+    \item $G$ é conexo e tem $|V|-1$ arestas;
+    \item $G$ é sem ciclos e a adição de uma aresta entre dois vértices não adjacentes cria um ciclo e somente um;
+    \item $G$ é conexo, mas deixa de sê-lo se uma aresta é suprimida (todas as arestas são pontes);
+    \item Todo par de vértices de $G$ é unido por uma e somente uma cadeia simples.
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Arvore.png}
+    \caption{Exemplo de árvore}
+\end{figure}
+
+\medskip
+
+\textbf{Árvore geradora de um grafo conexo}:  
+É um subgrafo conexo e acíclico que contém todo o conjunto de vértices e um subconjunto de arestas do grafo original.  
+
+Obs: Todo grafo conexo tem pelo menos uma árvore geradora.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Arvoregeradora.png}
+    \caption{Exemplo de árvore geradora}
+\end{figure}
+
+\medskip
+
+\textbf{Floresta}:  
+Um grafo acíclico que pode ser conectado ou não, cujas partes são árvores, sendo uma união de árvores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Floresta.png}
+    \caption{Exemplo de floresta}
+\end{figure}
+
+\textbf{Floresta geradora de um grafo}:  
+Uma floresta que tem todos os vértices de um grafo.
+
+\medskip
+
+\textbf{Grafos Isomórficos}:  
+Um grafo é isomorfo a outro se ele mantém a mesma correspondência de incidências ao outro grafo.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Grafoisomorfico.png}
+    \caption{Exemplo de grafo isomorfo}
+\end{figure}
+
+Obs:
+\begin{enumerate}
+    \item Se um grafo $G_2$ é isomorfo a $G_1$, então $G_1$ é isomorfo a $G_2$.
+    \item Se um grafo $G_2$ é isomorfo a $G_1$ e $G_3$, então $G_3$ é isomorfo a $G_2$ e vice-versa.
+    \item Um grafo é isomorfo a si próprio.
+    \item Um grafo $G_2$, se isomorfo a $G_1$, carrega as mesmas propriedades de $G_1$.
+\end{enumerate}
+
+\medskip
+
+\textbf{Conjunto independente de vértices}:  
+É um conjunto de pelo menos dois vértices de um grafo que não são adjacentes entre si.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Conjuntoidepen.png}
+    \caption{Exemplo de conjunto independente de vértices}
+\end{figure}
+
+Exemplos de conjuntos independentes de vértices do grafo da imagem:
+\[
+S_1 = \{1,3\}, \quad
+S_2 = \{2,4,6\}, \quad
+S_3 = \{5,1,3\}
+\]
+
+\medskip
+
+\textbf{Grafo misto}:  
+Quando um grafo pode possuir simultaneamente arestas e arcos.
+
+\medskip
+
+\textbf{Hipergrafo}:  
+Grafo não orientado onde cada aresta conecta um número arbitrário de vértices.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/Hipergrafo.png}
+    \caption{Exemplo de hipergrafo}
+\end{figure}
+
+Exemplo:
+\[
+\text{Arestas} = \{1,2,4\}, \{1,3,4\}, \{1,3\}
+\]
 
 \chapter{Operações}\label{cap:operacoes}
 
