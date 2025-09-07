@@ -12,24 +12,24 @@
 \contentsline {chapter}{\numberline {3}Definições em um Grafo }{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Terminologias}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Tipos de Grafos}{17}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Operações}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}União}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Intersecção}{32}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Soma}{33}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Decomposição}{34}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Remoção}{34}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Fusão de vértices}{35}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Contração}{36}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Buscas}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Busca em Largura}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Busca em Profundidade}{37}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Componentes Fortemente Conexos}{37}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Considerações de Eficiência}{37}{section.5.4}%
-\contentsline {chapter}{\numberline {6}CAMINHO MÍNIMO}{38}{chapter.6}%
-\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{39}{chapter.7}%
-\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{40}{chapter.8}%
-\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{41}{chapter.9}%
-\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{42}{chapter.10}%
-\contentsline {chapter}{\numberline {11}PLANARIDADE}{43}{chapter.11}%
-\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{44}{chapter.12}%
-\contentsline {chapter}{REFERÊNCIAS}{45}{chapter*.38}%
+\contentsline {chapter}{\numberline {4}Operações}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}União}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Intersecção}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Soma}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Decomposição}{38}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Remoção}{38}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Fusão de vértices}{39}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Contração}{40}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Buscas}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Busca em Largura}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Busca em Profundidade}{41}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Componentes Fortemente Conexos}{41}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Considerações de Eficiência}{41}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CAMINHO MÍNIMO}{42}{chapter.6}%
+\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{44}{chapter.8}%
+\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{45}{chapter.9}%
+\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{46}{chapter.10}%
+\contentsline {chapter}{\numberline {11}PLANARIDADE}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{48}{chapter.12}%
+\contentsline {chapter}{REFERÊNCIAS}{49}{chapter*.46}%

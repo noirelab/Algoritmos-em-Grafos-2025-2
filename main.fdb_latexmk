@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1757268003.20339 "main.bcf" "main.bbl" "main" 1757268262.83063 0
-  "main.bcf" 1757268262.68849 108669 6dec4f2b5915dd96b5e02e6d7f62daae "pdflatex"
+["biber main"] 1757268003.20339 "main.bcf" "main.bbl" "main" 1757273647.72164 0
+  "main.bcf" 1757273647.5819 108669 6dec4f2b5915dd96b5e02e6d7f62daae "pdflatex"
   "referencias.bib" 1757214731.64429 3432 42c3054da07e9e46caa701ba63bfee9f ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1757268258.46062 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1757268262.8316 0
-  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1757268253.78136 52129 4f4be65d4acbca0ee71373a929dfa9ee ""
+["pdflatex"] 1757273642.70383 "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" "main.pdf" "main" 1757273647.72201 0
+  "/home/noirelab/2025.2/AEG/Algoritmos-em-Grafos-2025-2/main.tex" 1757273631.99842 54920 807c7622718ca624b63e35dd6c596af0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -143,6 +143,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755981886 5528033 0c358b2aae4aa21399659c485f38b4ac ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755982043 3605797 71a688b38086935756fd2bb76b625872 ""
   "/usr/local/texlive/2025/texmf.cnf" 1755981878.22412 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "figuras/Arvore.png" 1757273622.30984 11736 b427fdbac877ec318d2b05436ec995a7 ""
+  "figuras/Arvoregeradora.png" 1757273622.30984 18212 ed977f796e430d8ebdaefd74f84e07f0 ""
+  "figuras/Floresta.png" 1757273622.30984 12386 285255faf3b834bea2204712fedbd0a3 ""
+  "figuras/Subgrafogerador.png" 1757273622.30984 10643 3643cdf1d6c3047964ba9c4e2e3d3d68 ""
+  "figuras/Subgrafoinduzido.png" 1757273622.31084 20128 b573a2b8900257b7d3e2a0c14c09f6e0 ""
+  "figuras/conjuntoidepen.png" 1757273622.31084 8066 e1895739e80fe6deff0f656af0cb0cba ""
   "figuras/contracao_novo_novo.png" 1757267321.42144 27832 85d6ba0eaf5ec9ebf32627b3fdae71fc ""
   "figuras/decomposicao.png" 1757266023.58857 65151 d634fd3d255ffc588ad0e2f52b620b04 ""
   "figuras/forte.png" 1757267851.65099 16800 1cdeee9b1a096adeb98dc78738eea30b ""
@@ -158,6 +164,8 @@
   "figuras/grafo_k-partido.png" 1757265289.92836 72992 34c566f70f15f9f24acc872ca583ef98 ""
   "figuras/grafo_planar.png" 1757263657.67312 28199 253aeadc29aa9029ff076167d9d66803 ""
   "figuras/grafo_ponderado.png" 1757265400.50559 11706 13edf2208058ffddef246dbc7c17f42e ""
+  "figuras/grafoisomorfico.png" 1757273622.31084 13213 1736e8c93e7a973a85f38f36bbd7d170 ""
+  "figuras/hipergrafo.png" 1757273622.31084 12911 800f2192c945c18d0f6552e9ce8bb415 ""
   "figuras/soma_NOVO.png" 1757266363.49193 84018 b3e36ae6aed4f8da00184bed66742d3f ""
   "figuras/subgrafos/subgrafo1.png" 1756324133.15133 70354 75aa555b2101458a403c1cf46af0c53d ""
   "figuras/subgrafos/subgrafo1usubgrafo2.png" 1756324133.15433 138881 d9588565f5c3d3ae4163853cb9008f03 ""
@@ -182,12 +190,12 @@
   "figuras/tiposgrafos/pseudografo.png" 1757214731.59529 39728 1b1bd45fe2dea20abf45873e298aa0ca ""
   "figuras/tiposgrafos/singleton.png" 1757214731.59529 4019 ac927c3d87de19f6ebd6c8b531c79980 ""
   "figuras/tiposgrafos/torneio.png" 1757214731.59729 53356 d471277652d62ad4f156a0512457f283 ""
-  "main.aux" 1757268262.68549 17764 e1bc8680626561e428721164cbc0c977 "pdflatex"
+  "main.aux" 1757273647.5779 18963 df22b75ed8dc31e08136238909e23f4c "pdflatex"
   "main.bbl" 1757268004.78621 14876 31cbf1d82184fea2dd26df255855e1e9 "biber main"
-  "main.out" 1757268262.68749 4669 738524abe91bf8855d565a04a244a2a9 "pdflatex"
-  "main.run.xml" 1757268262.68949 2344 ad4dfcfcacb56b7cbfc947989d53b929 "pdflatex"
-  "main.tex" 1757268253.78136 52129 4f4be65d4acbca0ee71373a929dfa9ee ""
-  "main.toc" 1757268262.68949 2622 e318997b0831cad49bfb40e1de0dc70e "pdflatex"
+  "main.out" 1757273647.5809 4669 50ea9b66882b39d64d33d3627817d3b5 "pdflatex"
+  "main.run.xml" 1757273647.5829 2344 ad4dfcfcacb56b7cbfc947989d53b929 "pdflatex"
+  "main.tex" 1757273631.99842 54920 807c7622718ca624b63e35dd6c596af0 ""
+  "main.toc" 1757273647.5829 2622 2dbb258152c04feabf16924970616949 "pdflatex"
   "referencias.bib" 1757214731.64429 3432 42c3054da07e9e46caa701ba63bfee9f ""
   (generated)
   "main.aux"
