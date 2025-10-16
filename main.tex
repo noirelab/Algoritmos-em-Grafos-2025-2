@@ -93,6 +93,7 @@ sumario = abnt-6027-2012]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{amsmath}
 \usepackage{geometry}
 \geometry{a4paper,margin=2.5cm}
 \usepackage{setspace}
@@ -534,6 +535,8 @@ No grafo utilizado não existe possibilidade de uma cadeia/ciclo desses dois tip
 
 
 \section{Tipos de Grafos}\label{sec:tiposGrafos}
+O grafo modelado neste trabalho é \textbf{não orientado, ponderado e simples}. A seguir, encontra-se todos possíveis tipos que um grafo pode assumir
+
 \textit{\textbf{Grafo nulo:}} um grafo em que seu conjunto de vértices e seu conjunto de arestas são vazios. \par
 \textit{\textbf{Grafo Trivial ou Singleton:}} grafo com apenas um vértice.
 \begin{figure} [H]
@@ -1047,7 +1050,7 @@ Aplicando a operação de intersecção nos subgrafos da seção \ref{sec:uniao}
 
 \section{Soma}\label{sec:soma}
 A soma de dois grafos é dividida entre dois tipos, a soma e soma direta.
-A soma junta os vértices e arestas dos dois grafos, criando uma conexão intercomplexa. A soma dos grafos resulta em um novo, como $G_3 = G_1 + G_2$ A fórmula é dada por:
+A soma junta os vértices e arestas dos dois grafos, criando uma conexão intercomplexa. A soma dos grafos resulta em um novo, como $G_3 = G_1 + G_2$ A fórmula é dada por: \\
 \[
 	G_3 = G_1 + G_2 = (V_1 \cup V_2, A_1 \cup A_2 \cup \{ \forall vi \in V_1, \forall vj \in V_2, \exists(vi, vj) \})
 \]
@@ -1199,8 +1202,30 @@ Também são analisadas as arestas de retorno (simbolizadas pelas linhas traceja
 
 \section{Componentes Fortemente Conexos}\label{sec:compFC}
 
+Um componente fortemente conexo (CFC) é um subgrafo máximo de um grafo orientado, onde cada vértice alcança todos os outros. Para encontrar um CFC, considerando um grafo G = ()V, X) deve-se seguir o seguinte passo a passo:
+
+Etapa 1: Realizar busca em largura considerando a lista de sucessores
+
+Etapa 2: Realizar busca em largura considerando a lista de predecessores
+
+Etapa 3: O componente fortemente conexo, um subgrafo do grafo de G, é encontrado: 
+
+\begin{equation}
+	V_r = \{\,V^+ \cap V^-\,\} \cup \{\,v_r\,\} \;\text{ e }\;
+	X_r = \{\, (v_i,v_j) \in X[G] \mid \{v_i,v_j\} \in V_r \,\}.
+\end{equation}
+
+
+No contexto desse trabalho, não há necessidade de encontrar um CFC, já que, em um grafo não orientado, todo componente já é fortemente conexo.
+
 % Considerações de Eficiência
 \section{Considerações de Eficiência}\label{sec:eficienciaBusca}
+
+O tempo de execução gasto do algoritmo de busca em profundidade é $ O(|V|+|X|) $, onde $ O(|V|) $ é obtido a partir da inicialização do vetor responsável por definir o estado do vértice durante a busca e $ O(|X|) $ corresponde a varredura total das listas de adjacências. Quando a representação utilizada for em matriz, sua eficiência será $ O(|V|) $
+Para o nosso grafo, é $ O(38) $.
+
+O custo do algoritmo de busca em largura é o mesmo, ou seja, $ O(|V| + |X|) = O(38) $.
+
 
 \chapter{CAMINHO MÍNIMO}\label{cap:caminhoMinimo}
 
