@@ -1188,6 +1188,8 @@ V_1 \rightarrow V_4 \rightarrow V_8 \rightarrow V_{12} \rightarrow V_{11} \right
 
 Após seguir para o $V_2$, é feito o retorno e verificado se todos os filhos estão na busca. Assim, surgem os vértices $V_{10}$, filho de $V_6$; $V_{16}$, filho de $V_{15}$; $V_3$ e $V_7$, filhos de $V_{11}$; e $V_5$, filho de $V_8$.
 
+A destacar também devemos falar sobre os tempos de abertura e fechamento, na figura, o tempo de abertura está em vermelho e o de fechamento em azul. Para cada vértice novo, é colocado um tempo de abertura, que se segue linear até o último vértice da coluna, e no momento da volta, é feito o tempo de fechamento, que é definido quando um vértice não tem mais nenhum filho a ser referenciado, como pode ser visto no  $V_6$, onde ele não fecha antes do $V_{10}$.
+
 Também são analisadas as arestas de retorno (simbolizadas pelas linhas tracejadas na figura), que são arestas que ligam um vértice de tempo menor a um de tempo maior, sendo identificadas quatro:
 \[
 (V_2 \rightarrow V_1),\ (V_{10} \rightarrow V_{13}),\ (V_3 \rightarrow V_1),\ (V_7 \rightarrow V_{12})
