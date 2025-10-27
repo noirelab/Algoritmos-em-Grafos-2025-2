@@ -234,7 +234,7 @@ ACID\hspace{1cm}Atomicidade, Consistência, Isolamento e Durabilidade
 % Larguras/recuos (alinham número/título/página)
 \cftsetindents{chapter}{1em}{4.0em}
 \cftsetindents{section}{1em}{4.0em}
-\cftsetindents{subsection}{0em}{0em}
+\cftsetindents{subsection}{1em}{4.0em}
 
 % Profundidade do sumário (0=chap, 1=sec, 2=subsec, ...)
 \setcounter{tocdepth}{2}
@@ -245,6 +245,8 @@ ACID\hspace{1cm}Atomicidade, Consistência, Isolamento e Durabilidade
 \titlespacing*{\chapter}{0pt}{2.5ex}{1.5ex}
 \titleformat{\section}{\bfseries\small}{\thesection}{1em}{}
 \titlespacing*{\section}{0pt}{2.0ex}{1.0ex}
+\titleformat{\subsection}{\small}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{2.0ex}{1.0ex}
 
 
 
@@ -1230,7 +1232,42 @@ O custo do algoritmo de busca em largura é o mesmo, ou seja, $ O(|V| + |X|) = O
 
 
 \chapter{CAMINHO MÍNIMO}\label{cap:caminhoMinimo}
+Quando a definição de distância é associada aos caminhos, surgem os problemas de
+caminho mínimo amplamente usados na solução de problemas aplicados. O caminho mínimo
+mais básico ocorre em grafos não valorados, onde o caminho mínimo é dado pelo número de
+arestas, não pelo somatório do valor associado às arestas. A Seção 6.1 apresenta a definição
+e o cálculo do caminho mínimo em grafos não valorados.
+No momento em que se considera grafos valorados, o caminho mínimo pode ser definido por diferentes algoritmos dependendo das características particulares do grafo a ser analisado. A seção 6.2 apresenta os algoritmos de caminho mínimo de única origem e a seção 6.3
+os algoritmos de caminho mínimo entre todos os pares de vértices. As considerações acerca
+da eficiência computacional, tanto em relação ao tempo de processamento quanto ao espaço
+usado de memória pela definição do caminho mínimo, são dadas na Seção 6.4.
 
+\section{Distâncias}\label{sec:dist}
+
+\section{Origem Única}\label{sec:oUnica}
+
+O problema de caminhos mínimos de única origem visa encontrar um caminho mínimo
+de um determinado vértice de origem até todos os outros vértices do grafo. Diversos são os
+algoritmos responsáveis por determinar os caminhos mínimos de única origem em um grafo valorado, seja ele orientado ou não. Entretanto, cada um tem algumas limitações. As Seções 6.2.1,
+6.2.2 e 6.2.3 apresentam, respectivamente, os algoritmos de Dijkstra, de Ordenação topológica
+e de Bellman–Ford.
+
+\subsection{Algoritmo de Dijkstra}\label{sec:dijkstra}
+
+\subsection{Ordenação topológica}\label{sec:ordTopologica}
+
+\subsection{Algoritmo de Bellman–Ford}\label{sec:bellmanFord}
+
+\section{Entre todos os Pares}\label{sec:entrePares}
+
+Os algoritmos de caminho mínimo de origem única, ao executar uma vez para cada vértice pertencente ao grafo, pode solucionar o caminho mínimo entre todos os pares de vértices.
+Entretanto, o custo computacional desta configuração não é interessante dado que existem algoritmos mais eficientes que entregam a mesma solução em um tempo computacional inferior.
+A Seção 6.3.1 apresenta o algoritmo de Floyd-Warshall que calcula os caminhos mínimos entre todos os pares de vértices se o grafo for f–conexo, para grafos orientados, ou conexo para
+grafos não orientados.
+
+\subsection{Algoritmo de Floyd Warshall}\label{sec:floydW}
+
+\section{Considerações de Eficiência}\label{sec:caminhoEfic}
 
 \chapter{ARVORE DE COBERTURA MÍNIMA}\label{cap:arvCobMinima}
 
