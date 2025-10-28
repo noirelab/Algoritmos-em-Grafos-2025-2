@@ -1243,6 +1243,35 @@ da eficiência computacional, tanto em relação ao tempo de processamento quant
 usado de memória pela definição do caminho mínimo, são dadas na Seção 6.4.
 
 \section{Distâncias}\label{sec:dist}
+Quando um grafo é não valorado, o cálculo de caminho mínimo se dá na busca em largura (BFS), essa busca garante que o primeiro caminho encontrado entre o ponto de partida e o destino será o mais curto, em termos do menor número de arestas percorridas.
+
+O cálculo a seguir, será feito a partir da imagem 6.1, que é um trecho retirado do grafo utilizado no restante do documento.
+
+E para fazer algum sentido, será desconsiderado os pesos apresentados nas arestas.
+
+Como já explicado no tópico 5.1, a busca em largura é realizado utilizando a ordem de fila (FIFO), no seguinte processo:
+
+$1 \rightarrow$ Pegamos o 1 como raiz e o enfileira [1].
+
+$2 \rightarrow$ Desenfileira e visitamos os vértices adjacentes não visitados, no caso, o $V_4$, e enfileira [4].
+
+$3 \rightarrow$ Mesmo processo do passo anterior, mas dessa vez com o $V_4$, no caso, temos $V_5$, $V_8$ e $V_1$, porém como $V_1$ já foi visitado, usaremos apenas os dois primeiros, os enfileirando, [5,8].
+
+$4 \rightarrow$ Desenfileira o 5 e verifica os vértices adjacentes, no caso temos o $V_8$, mas como ele já foi visitado, então, não fazemos nada, seguimos então com o desenfileiramento do $V_8$, e ao verificar os vértices adjacentes, é percebido que não tem mais nenhum vértice sem marcação, nesse caso, a fila está vazia, e então, é finalizado a busca.
+
+Nesse caso, verificamos a ordem recebida:
+
+$V_1 \rightarrow V_4$
+
+$V_4 \rightarrow V_5$
+
+$V_4 \rightarrow V_8$
+
+Então nesse caso, temos o caminho mínimo nos seguintes casos:
+
+Raiz = 1, Destino = 4, caminho mínimo = 1, (1,4).
+
+Raiz = 1, Destino = 5/8, caminho mínimo = 2 (1,4),(4,5/8).
 
 \section{Origem Única}\label{sec:oUnica}
 
@@ -1253,6 +1282,37 @@ algoritmos responsáveis por determinar os caminhos mínimos de única origem em
 e de Bellman–Ford.
 
 \subsection{Algoritmo de Dijkstra}\label{sec:dijkstra}
+O Algoritmo de Dijkstra é o mais utilizado no mundo, porém, ele não pode ser utilizado, caso exista, arestas com pesos negativos.
+
+O processo do algoritmo é definir um ponto de origem e a cada passo seguinte, selecionar um vértice com o menor peso em relação ao caminho mínimo de $V_0$ até $V_N$.
+
+O Processo é descrito a seguir:
+
+Passo 1 $\rightarrow$ É definido um V de origem e inicializado duas filas, uma de $VPai$ [NULL,...,NULL] e uma de pesos [$\infty$,... $\infty$].
+
+Passo 2 $\rightarrow$ É selecionado o primeiro vértice mais próximo de $V_0$ e é atualizado a fila de pesos e a fila $VPai$.
+
+Passo 3 $\rightarrow$ É selecionado o próximo vértice de menor peso e a partir dele, é analisado, e caso algum vértice tenha um peso menor com relação ao $VAtual$, é atualizado tanto na fila de pesos quanto na fila $VPai$, e assim se segue até que todos os vértices sejam analisados, ao terminar, as filas recebidas serão utilizadas para definir o caminho mínimo.
+
+Usando o mesmo subgrafo utilizado no tópico 6.1, dessa vez, considerando os pesos na imagem.
+
+1 $\rightarrow$ definimos o $V_1$ como vértice origem, e a partir disso, inicializamos a fila de pesos dist[$\infty , \infty, \infty, \infty$], e a fila $VPai$ [NULL,NULL,NULL,NULL].
+
+2 $\rightarrow$ como o $V_1$ tem apenas 1 $V$ adjacente, seguimos para ele e atualizamos as filas, dist[0 ; 92,82 ; $\infty ; \infty$] e $VPai$ [NULL,1,NULL,NULL].
+
+3 $\rightarrow$ dessa vez, o $V_4$ tem 2 vértices adjacentes a ele, então é verificado qual dos dois tem o menor caminho, e nesse caso, é selecionado o $V_5$, tendo em vista que 24,43 < 74,93, e é atualizado as filas dist[0 ; 92,82 ; 117,25 ; 167,75] e $VPai$ [NULL,1,4,4].
+
+4 $\rightarrow$ Como o grafo é não orientado, podemos apenas ignorar a adjacência com de $V_5$ com $V_4$ pois o caminho tem o mesmo peso na ida e na volta, caso fosse orientado, teria que se analisar todos os caminhos para atualizar as filas corretamente, e analisando o caminho de $V_5 \rightarrow V_8$ nós temos um peso de 117,25 + 85,49 = 202,74 que é maior que o valor já inserido no $V_8$, que é 167,75, que faz com que as filas permaneçam do mesmo jeito que o passo anterior.
+
+5 $\rightarrow$ E por fim, indo visitar o $V_8$, pelo $V_4$, temos o valor de 167,75 + 85,49 = 253,24 para o $V_5$, que é maior que o valor já inserido de 117,25, então, as filas permanecem do mesmo jeito.
+
+Com isso, todos os vértices foram visitados e analisados, a partir disso temos as filas de peso e de $VPai$, que ficaram respectivamente:
+
+[0 ; 92,82 ; 117,25 ; 167,75].
+
+[NULL,1,4,4].
+
+A partir disso, é definido os mínimos caminhos para cada $V_0$ e $V_Destino$.
 
 \subsection{Ordenação topológica}\label{sec:ordTopologica}
 

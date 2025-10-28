@@ -1,19 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.23)  27 OCT 2025 23:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.7)  28 OCT 2025 07:33
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/noirelab/Algoritmos-em-Grafos-2025-2/main.tex
-(/home/noirelab/Algoritmos-em-Grafos-2025-2/main.tex
+**./main.tex
+(main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 
 LaTeX Info: File `referencias.bib' already exists on the system.
             Not generating it from this source.
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -28,47 +27,70 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2078.
 \U@D=\dimen149
-\l@unhyphenated=\language90
- (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language79
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
- (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazil.ldf
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language72). Reported on input line 111.
+(babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen150
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count286
@@ -118,14 +140,18 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count298
@@ -140,78 +166,102 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen165
 \Gm@layoutvoffset=\dimen166
 \Gm@dimlist=\toks25
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen167
 \Gin@req@width=\dimen168
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count301
 \float@exts=\toks26
 \float@box=\box55
 \@float@everytoks=\toks27
 \@floatcapt=\box56
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
+ys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
+ty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
+string.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count302
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count303
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen169
 \Hy@linkcounter=\count304
 \Hy@pagecounter=\count305
- (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count306
- (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -224,16 +274,21 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count307
- (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen170
- (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count308
 \Field@Width=\dimen171
@@ -250,19 +305,26 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count311
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count312
 \c@bookmark@seq@number=\count313
- (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
+heck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
+nter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip54
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box57
 \beforetitleunit=\skip55
@@ -273,7 +335,8 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen175
 \titlewidthlast=\dimen176
 \titlewidthfirst=\dimen177
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip57
@@ -312,9 +375,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip88
 \cfttabindent=\skip89
 \cfttabnumwidth=\skip90
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/helvet.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip91
 \RaggedLeftLeftskip=\skip92
@@ -330,13 +395,17 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip102
 \RaggedRightParindent=\skip103
 \JustifyingParindent=\skip104
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen178
 \captionmargin=\dimen179
@@ -357,14 +426,18 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count318
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count319
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count320
- (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+))
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count321
@@ -420,13 +493,14 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \bibhang=\skip112
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language91
+\blx@langwohyphens=\language80
 \c@mincomprange=\count364
 \c@maxcomprange=\count365
 \c@mincompwidth=\count366
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -517,12 +591,14 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip126
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \c@textcitecount=\count435
 \c@textcitetotal=\count436
@@ -540,18 +616,23 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.b
+bx
 File: authoryear.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count444
 \c@bbx:relatedtotal=\count445
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear.c
+bx
 File: authoryear.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -563,14 +644,16 @@ Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+ (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-08-13 L3 programming layer (loader) 
- (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count446
 ))
@@ -578,13 +661,17 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-08-13 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
+ty
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+)) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+) (C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count447
 \lst@gtempboxa=\box58
 \lst@token=\toks29
@@ -597,24 +684,33 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 \lst@newlines=\count451
 \lst@lineno=\count452
 \lst@maxwidth=\dimen189
- (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count453
 \lst@skipnumbers=\count454
 \lst@framebox=\box59
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 \@float@every@algorithm=\toks30
 \c@algorithm=\count455
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocod
+e.sty
 Package: algpseudocode 
- (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx
+.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -637,15 +733,16 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count463
 \@quotereset=\count464
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 154.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
+4.
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 
 LaTeX Warning: Unused global option(s):
     [semrecuonosumario,sumario].
 
-(./main.aux
+(main.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 9.
 )
@@ -704,7 +801,8 @@ LaTeX Font Info:    ... okay on input line 154.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count465
 \scratchdimen=\dimen190
@@ -717,14 +815,18 @@ LaTeX Font Info:    ... okay on input line 154.
 \MPnumerator=\count469
 \makeMPintoPDFobject=\count470
 \everyMPtoPDFconversion=\toks32
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
+e.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 154.
- (./main.out) (./main.out)
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -733,16 +835,21 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'brazil'...
 Package biblatex Info: ... file 'brazil.lbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\brazil.lbx
 File: brazil.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'brazilian'...
 Package biblatex Info: ... file 'brazilian.lbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\brazilian.lb
+x
 File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'brazilian'...
 Package biblatex Info: ... file 'brazilian.lbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\brazilian.lb
+x
 File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -752,7 +859,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 154.
 Package biblatex Info: Reference segment=0 on input line 154.
 \c@lstlisting=\count471
@@ -760,7 +867,8 @@ Package biblatex Info: Reference segment=0 on input line 154.
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{C:/Users/Ian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ian/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 Underfull \hbox (badness 2285) in paragraph at lines 178--185
 \T1/phv/m/n/12 Gra-du-a-ção apre-sen-tado como re-qui-sito
  []
@@ -770,14 +878,16 @@ Underfull \hbox (badness 2285) in paragraph at lines 178--185
 [2]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.200 \newpage
                [1]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.203 \newpage
@@ -790,7 +900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
 
 
-[4] (./main.toc
+[4] (main.toc
 
 [5
 
@@ -802,8 +912,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
 [6]
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 272.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+72.
+(C:\Users\Ian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 
@@ -825,7 +936,7 @@ Cap\'{\i }tulo 2.
 [10
 
 ]
-<figuras/grafoGeometrico.png, id=294, 633.3261pt x 497.6994pt>
+<figuras/grafoGeometrico.png, id=292, 633.3261pt x 497.6994pt>
 File: figuras/grafoGeometrico.png Graphic file (type png)
 <use figuras/grafoGeometrico.png>
 Package pdftex.def Info: figuras/grafoGeometrico.png  used on input line 344.
@@ -838,7 +949,7 @@ Overfull \hbox (33.65958pt too wide) in paragraph at lines 344--346
 
 
 [11 <./figuras/grafoGeometrico.png>]
-<figuras/grafoListaAdj.png, id=304, 507.8172pt x 578.6418pt>
+<figuras/grafoListaAdj.png, id=302, 507.8172pt x 578.6418pt>
 File: figuras/grafoListaAdj.png Graphic file (type png)
 <use figuras/grafoListaAdj.png>
 Package pdftex.def Info: figuras/grafoListaAdj.png  used on input line 385.
@@ -863,7 +974,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--424
 Cap\'{\i }tulo 3.
 
 Overfull \hbox (0.45244pt too wide) in paragraph at lines 447--449
-[]\T1/phv/m/n/12 A ad-ja-cên-cia de ares-tas é pa-re-cida, mas dessa vez, ares-tas são ad-ja-cen-tes quando
+[]\T1/phv/m/n/12 A ad-ja-cên-cia de ares-tas é pa-re-cida, mas dessa vez, ares-
+tas são ad-ja-cen-tes quando
  []
 
 
@@ -877,28 +989,32 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 542.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 542.
-<figuras/tiposgrafos/singleton.png, id=338, 37.0986pt x 37.0986pt>
+<figuras/tiposgrafos/singleton.png, id=335, 37.0986pt x 37.0986pt>
 File: figuras/tiposgrafos/singleton.png Graphic file (type png)
 <use figuras/tiposgrafos/singleton.png>
-Package pdftex.def Info: figuras/tiposgrafos/singleton.png  used on input line 548.
+Package pdftex.def Info: figuras/tiposgrafos/singleton.png  used on input line 
+548.
 (pdftex.def)             Requested size: 45.52718pt x 45.52795pt.
-<figuras/tiposgrafos/grafVazio.png, id=339, 208.6194pt x 253.9086pt>
+<figuras/tiposgrafos/grafVazio.png, id=336, 208.6194pt x 253.9086pt>
 File: figuras/tiposgrafos/grafVazio.png Graphic file (type png)
 <use figuras/tiposgrafos/grafVazio.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafVazio.png  used on input line 558.
+Package pdftex.def Info: figuras/tiposgrafos/grafVazio.png  used on input line 
+558.
 (pdftex.def)             Requested size: 227.62206pt x 277.04546pt.
 
 
 [17 <./figuras/tiposgrafos/singleton.png>]
-<figuras/tiposgrafos/buque.png, id=348, 173.9298pt x 105.7551pt>
+<figuras/tiposgrafos/buque.png, id=345, 173.9298pt x 105.7551pt>
 File: figuras/tiposgrafos/buque.png Graphic file (type png)
 <use figuras/tiposgrafos/buque.png>
 Package pdftex.def Info: figuras/tiposgrafos/buque.png  used on input line 567.
+
 (pdftex.def)             Requested size: 227.62206pt x 138.40625pt.
-<figuras/tiposgrafos/pseudografo.png, id=349, 258.0039pt x 233.4321pt>
+<figuras/tiposgrafos/pseudografo.png, id=346, 258.0039pt x 233.4321pt>
 File: figuras/tiposgrafos/pseudografo.png Graphic file (type png)
 <use figuras/tiposgrafos/pseudografo.png>
-Package pdftex.def Info: figuras/tiposgrafos/pseudografo.png  used on input line 576.
+Package pdftex.def Info: figuras/tiposgrafos/pseudografo.png  used on input lin
+e 576.
 (pdftex.def)             Requested size: 227.62206pt x 205.94446pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 571--579
@@ -908,20 +1024,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--579
 
 
 [18 <./figuras/tiposgrafos/grafVazio.png> <./figuras/tiposgrafos/buque.png>]
-<figuras/tiposgrafos/grafReflex.png, id=358, 246.6816pt x 132.7359pt>
+<figuras/tiposgrafos/grafReflex.png, id=355, 246.6816pt x 132.7359pt>
 File: figuras/tiposgrafos/grafReflex.png Graphic file (type png)
 <use figuras/tiposgrafos/grafReflex.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafReflex.png  used on input line 585.
+Package pdftex.def Info: figuras/tiposgrafos/grafReflex.png  used on input line
+ 585.
 (pdftex.def)             Requested size: 227.62206pt x 122.48306pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 580--588
 
  []
 
-<figuras/tiposgrafos/multigrafo.png, id=359, 246.6816pt x 238.9728pt>
+<figuras/tiposgrafos/multigrafo.png, id=356, 246.6816pt x 238.9728pt>
 File: figuras/tiposgrafos/multigrafo.png Graphic file (type png)
 <use figuras/tiposgrafos/multigrafo.png>
-Package pdftex.def Info: figuras/tiposgrafos/multigrafo.png  used on input line 594.
+Package pdftex.def Info: figuras/tiposgrafos/multigrafo.png  used on input line
+ 594.
 (pdftex.def)             Requested size: 227.62206pt x 220.51398pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 589--597
@@ -930,21 +1048,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 589--597
 
 
 
-[19 <./figuras/tiposgrafos/pseudografo.png> <./figuras/tiposgrafos/grafReflex.png>]
-<figuras/tiposgrafos/multigrafoDirec.png, id=368, 254.3904pt x 238.9728pt>
+[19 <./figuras/tiposgrafos/pseudografo.png> <./figuras/tiposgrafos/grafReflex.p
+ng>]
+<figuras/tiposgrafos/multigrafoDirec.png, id=365, 254.3904pt x 238.9728pt>
 File: figuras/tiposgrafos/multigrafoDirec.png Graphic file (type png)
 <use figuras/tiposgrafos/multigrafoDirec.png>
-Package pdftex.def Info: figuras/tiposgrafos/multigrafoDirec.png  used on input line 603.
+Package pdftex.def Info: figuras/tiposgrafos/multigrafoDirec.png  used on input
+ line 603.
 (pdftex.def)             Requested size: 227.62206pt x 213.83737pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 598--606
 
  []
 
-<figuras/tiposgrafos/grafoSimples.png, id=369, 463.4916pt x 238.9728pt>
+<figuras/tiposgrafos/grafoSimples.png, id=366, 463.4916pt x 238.9728pt>
 File: figuras/tiposgrafos/grafoSimples.png Graphic file (type png)
 <use figuras/tiposgrafos/grafoSimples.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafoSimples.png  used on input line 612.
+Package pdftex.def Info: figuras/tiposgrafos/grafoSimples.png  used on input li
+ne 612.
 (pdftex.def)             Requested size: 318.66948pt x 164.30797pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 607--615
@@ -953,21 +1074,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--615
 
 
 
-[20 <./figuras/tiposgrafos/multigrafo.png> <./figuras/tiposgrafos/multigrafoDirec.png>]
-<figuras/tiposgrafos/grafAcicl.png, id=378, 246.6816pt x 238.9728pt>
+[20 <./figuras/tiposgrafos/multigrafo.png> <./figuras/tiposgrafos/multigrafoDir
+ec.png>]
+<figuras/tiposgrafos/grafAcicl.png, id=375, 246.6816pt x 238.9728pt>
 File: figuras/tiposgrafos/grafAcicl.png Graphic file (type png)
 <use figuras/tiposgrafos/grafAcicl.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafAcicl.png  used on input line 621.
+Package pdftex.def Info: figuras/tiposgrafos/grafAcicl.png  used on input line 
+621.
 (pdftex.def)             Requested size: 227.62206pt x 220.51398pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 616--624
 
  []
 
-<figuras/tiposgrafos/grafCiclo.png, id=379, 197.7789pt x 217.7736pt>
+<figuras/tiposgrafos/grafCiclo.png, id=376, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafCiclo.png Graphic file (type png)
 <use figuras/tiposgrafos/grafCiclo.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafCiclo.png  used on input line 630.
+Package pdftex.def Info: figuras/tiposgrafos/grafCiclo.png  used on input line 
+630.
 (pdftex.def)             Requested size: 227.62206pt x 250.64702pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 625--633
@@ -976,21 +1100,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--633
 
 
 
-[21 <./figuras/tiposgrafos/grafoSimples.png> <./figuras/tiposgrafos/grafAcicl.png>]
-<figuras/tiposgrafos/grafRoda.png, id=388, 197.7789pt x 217.7736pt>
+[21 <./figuras/tiposgrafos/grafoSimples.png> <./figuras/tiposgrafos/grafAcicl.p
+ng>]
+<figuras/tiposgrafos/grafRoda.png, id=385, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafRoda.png Graphic file (type png)
 <use figuras/tiposgrafos/grafRoda.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafRoda.png  used on input line 639.
+Package pdftex.def Info: figuras/tiposgrafos/grafRoda.png  used on input line 6
+39.
 (pdftex.def)             Requested size: 227.62206pt x 250.64702pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 634--642
 
  []
 
-<figuras/tiposgrafos/grafRegular.png, id=389, 197.7789pt x 217.7736pt>
+<figuras/tiposgrafos/grafRegular.png, id=386, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafRegular.png Graphic file (type png)
 <use figuras/tiposgrafos/grafRegular.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafRegular.png  used on input line 648.
+Package pdftex.def Info: figuras/tiposgrafos/grafRegular.png  used on input lin
+e 648.
 (pdftex.def)             Requested size: 227.62206pt x 250.64702pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 643--651
@@ -1000,10 +1127,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--651
 
 
 [22 <./figuras/tiposgrafos/grafCiclo.png> <./figuras/tiposgrafos/grafRoda.png>]
-<figuras/tiposgrafos/grafSimetrico.png, id=398, 253.9086pt x 284.0211pt>
+<figuras/tiposgrafos/grafSimetrico.png, id=395, 253.9086pt x 284.0211pt>
 File: figuras/tiposgrafos/grafSimetrico.png Graphic file (type png)
 <use figuras/tiposgrafos/grafSimetrico.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafSimetrico.png  used on input line 657.
+Package pdftex.def Info: figuras/tiposgrafos/grafSimetrico.png  used on input l
+ine 657.
 (pdftex.def)             Requested size: 227.62206pt x 254.61551pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 652--660
@@ -1013,38 +1141,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--660
 
 
 [23 <./figuras/tiposgrafos/grafRegular.png>]
-<figuras/tiposgrafos/grafAssimet.png, id=406, 253.9086pt x 235.8411pt>
+<figuras/tiposgrafos/grafAssimet.png, id=403, 253.9086pt x 235.8411pt>
 File: figuras/tiposgrafos/grafAssimet.png Graphic file (type png)
 <use figuras/tiposgrafos/grafAssimet.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafAssimet.png  used on input line 666.
+Package pdftex.def Info: figuras/tiposgrafos/grafAssimet.png  used on input lin
+e 666.
 (pdftex.def)             Requested size: 227.62206pt x 211.42372pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 661--669
 
  []
 
-<figuras/tiposgrafos/torneio.png, id=407, 258.7266pt x 235.8411pt>
+<figuras/tiposgrafos/torneio.png, id=404, 258.7266pt x 235.8411pt>
 File: figuras/tiposgrafos/torneio.png Graphic file (type png)
 <use figuras/tiposgrafos/torneio.png>
-Package pdftex.def Info: figuras/tiposgrafos/torneio.png  used on input line 675.
+Package pdftex.def Info: figuras/tiposgrafos/torneio.png  used on input line 67
+5.
 (pdftex.def)             Requested size: 227.62206pt x 207.4904pt.
 
 
-[24 <./figuras/tiposgrafos/grafSimetrico.png> <./figuras/tiposgrafos/grafAssimet.png>]
-<figuras/tiposgrafos/grafo_completo.png, id=416, 1446.40375pt x 503.8825pt>
+[24 <./figuras/tiposgrafos/grafSimetrico.png> <./figuras/tiposgrafos/grafAssime
+t.png>]
+<figuras/tiposgrafos/grafo_completo.png, id=413, 1446.40375pt x 503.8825pt>
 File: figuras/tiposgrafos/grafo_completo.png Graphic file (type png)
 <use figuras/tiposgrafos/grafo_completo.png>
-Package pdftex.def Info: figuras/tiposgrafos/grafo_completo.png  used on input line 687.
+Package pdftex.def Info: figuras/tiposgrafos/grafo_completo.png  used on input 
+line 687.
 (pdftex.def)             Requested size: 364.19667pt x 126.86987pt.
-<figuras/grafo_conexo.png, id=417, 1149.29375pt x 520.94624pt>
+<figuras/grafo_conexo.png, id=414, 1149.29375pt x 520.94624pt>
 File: figuras/grafo_conexo.png Graphic file (type png)
 <use figuras/grafo_conexo.png>
 Package pdftex.def Info: figuras/grafo_conexo.png  used on input line 706.
 (pdftex.def)             Requested size: 364.19667pt x 165.07666pt.
 
 
-[25 <./figuras/tiposgrafos/torneio.png> <./figuras/tiposgrafos/grafo_completo.png>]
-<figuras/forte.png, id=426, 465.74pt x 294.09875pt>
+[25 <./figuras/tiposgrafos/torneio.png> <./figuras/tiposgrafos/grafo_completo.p
+ng>]
+<figuras/forte.png, id=423, 465.74pt x 294.09875pt>
 File: figuras/forte.png Graphic file (type png)
 <use figuras/forte.png>
 Package pdftex.def Info: figuras/forte.png  used on input line 725.
@@ -1052,48 +1185,54 @@ Package pdftex.def Info: figuras/forte.png  used on input line 725.
 
 
 [26 <./figuras/grafo_conexo.png> <./figuras/forte.png>]
-<figuras/grafo_planar.png, id=433, 946.53625pt x 477.785pt>
+<figuras/grafo_planar.png, id=430, 946.53625pt x 477.785pt>
 File: figuras/grafo_planar.png Graphic file (type png)
 <use figuras/grafo_planar.png>
 Package pdftex.def Info: figuras/grafo_planar.png  used on input line 743.
 (pdftex.def)             Requested size: 182.09486pt x 91.9101pt.
 
 Overfull \hbox (48.69177pt too wide) in paragraph at lines 755--758
-\T1/phv/m/n/12 as ares-tas exa-ta-mente uma vez. Exem-plo: $\OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]\OMS/cmsy/m/n/12 g$\T1/phv/m/n/12 . 
+\T1/phv/m/n/12 as ares-tas exa-ta-mente uma vez. Exem-plo: $\OML/cmm/m/it/12 C[
+] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 u[]; u[]; u[]; u[]; u[];
+ u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]; u[]\OMS/cmsy/m/n/12 g$\T1/phv/m/n/12 .
+ 
  []
 
-<figuras/grafo_euleriano.png, id=434, 550.055pt x 415.5525pt>
+<figuras/grafo_euleriano.png, id=431, 550.055pt x 415.5525pt>
 File: figuras/grafo_euleriano.png Graphic file (type png)
 <use figuras/grafo_euleriano.png>
 Package pdftex.def Info: figuras/grafo_euleriano.png  used on input line 763.
 (pdftex.def)             Requested size: 182.09486pt x 137.56392pt.
-<figuras/grafo_hamiltoniano.png, id=435, 391.4625pt x 368.37625pt>
+<figuras/grafo_hamiltoniano.png, id=432, 391.4625pt x 368.37625pt>
 File: figuras/grafo_hamiltoniano.png Graphic file (type png)
 <use figuras/grafo_hamiltoniano.png>
-Package pdftex.def Info: figuras/grafo_hamiltoniano.png  used on input line 775.
+Package pdftex.def Info: figuras/grafo_hamiltoniano.png  used on input line 775
+.
 (pdftex.def)             Requested size: 91.04742pt x 85.67468pt.
 
 
 [27 <./figuras/grafo_planar.png> <./figuras/grafo_euleriano.png>]
-<figuras/grafo_bipartido.png, id=446, 520.94624pt x 483.8075pt>
+<figuras/grafo_bipartido.png, id=443, 520.94624pt x 483.8075pt>
 File: figuras/grafo_bipartido.png Graphic file (type png)
 <use figuras/grafo_bipartido.png>
 Package pdftex.def Info: figuras/grafo_bipartido.png  used on input line 787.
 (pdftex.def)             Requested size: 136.57462pt x 126.83527pt.
-<figuras/grafo_bipartido_completo.png, id=447, 568.1225pt x 503.8825pt>
+<figuras/grafo_bipartido_completo.png, id=444, 568.1225pt x 503.8825pt>
 File: figuras/grafo_bipartido_completo.png Graphic file (type png)
 <use figuras/grafo_bipartido_completo.png>
-Package pdftex.def Info: figuras/grafo_bipartido_completo.png  used on input line 799.
+Package pdftex.def Info: figuras/grafo_bipartido_completo.png  used on input li
+ne 799.
 (pdftex.def)             Requested size: 182.09486pt x 161.5071pt.
 
 
-[28 <./figuras/grafo_hamiltoniano.png> <./figuras/grafo_bipartido.png> <./figuras/grafo_bipartido_completo.png>]
-<figuras/grafo_k-partido.png, id=455, 921.4425pt x 541.02126pt>
+[28 <./figuras/grafo_hamiltoniano.png> <./figuras/grafo_bipartido.png> <./figur
+as/grafo_bipartido_completo.png>]
+<figuras/grafo_k-partido.png, id=452, 921.4425pt x 541.02126pt>
 File: figuras/grafo_k-partido.png Graphic file (type png)
 <use figuras/grafo_k-partido.png>
 Package pdftex.def Info: figuras/grafo_k-partido.png  used on input line 812.
 (pdftex.def)             Requested size: 182.09486pt x 106.9145pt.
-<figuras/grafo_ponderado.png, id=456, 393.47pt x 409.53pt>
+<figuras/grafo_ponderado.png, id=453, 393.47pt x 409.53pt>
 File: figuras/grafo_ponderado.png Graphic file (type png)
 <use figuras/grafo_ponderado.png>
 Package pdftex.def Info: figuras/grafo_ponderado.png  used on input line 827.
@@ -1101,30 +1240,32 @@ Package pdftex.def Info: figuras/grafo_ponderado.png  used on input line 827.
 
 
 [29 <./figuras/grafo_k-partido.png> <./figuras/grafo_ponderado.png>]
-<figuras/grafo_complemetnar.png, id=467, 967.615pt x 356.33125pt>
+<figuras/grafo_complemetnar.png, id=464, 967.615pt x 356.33125pt>
 File: figuras/grafo_complemetnar.png Graphic file (type png)
 <use figuras/grafo_complemetnar.png>
-Package pdftex.def Info: figuras/grafo_complemetnar.png  used on input line 849.
+Package pdftex.def Info: figuras/grafo_complemetnar.png  used on input line 849
+.
 (pdftex.def)             Requested size: 182.09486pt x 67.05661pt.
-<figuras/Subgrafogerador.png, id=468, 569.12625pt x 158.5925pt>
+<figuras/Subgrafogerador.png, id=465, 569.12625pt x 158.5925pt>
 File: figuras/Subgrafogerador.png Graphic file (type png)
 <use figuras/Subgrafogerador.png>
 Package pdftex.def Info: figuras/Subgrafogerador.png  used on input line 860.
 (pdftex.def)             Requested size: 273.14923pt x 76.11868pt.
-<figuras/Subgrafoinduzido.png, id=469, 569.12625pt x 308.15125pt>
+<figuras/Subgrafoinduzido.png, id=466, 569.12625pt x 308.15125pt>
 File: figuras/Subgrafoinduzido.png Graphic file (type png)
 <use figuras/Subgrafoinduzido.png>
 Package pdftex.def Info: figuras/Subgrafoinduzido.png  used on input line 871.
 (pdftex.def)             Requested size: 273.14923pt x 147.9015pt.
 
 
-[30 <./figuras/grafo_complemetnar.png> <./figuras/Subgrafogerador.png> <./figuras/Subgrafoinduzido.png>]
-<figuras/Arvore.png, id=480, 317.185pt x 293.095pt>
+[30 <./figuras/grafo_complemetnar.png> <./figuras/Subgrafogerador.png> <./figur
+as/Subgrafoinduzido.png>]
+<figuras/Arvore.png, id=476, 317.185pt x 293.095pt>
 File: figuras/Arvore.png Graphic file (type png)
 <use figuras/Arvore.png>
 Package pdftex.def Info: figuras/Arvore.png  used on input line 897.
 (pdftex.def)             Requested size: 273.14923pt x 252.4235pt.
-<figuras/Arvoregeradora.png, id=481, 539.01375pt x 224.84pt>
+<figuras/Arvoregeradora.png, id=477, 539.01375pt x 224.84pt>
 File: figuras/Arvoregeradora.png Graphic file (type png)
 <use figuras/Arvoregeradora.png>
 Package pdftex.def Info: figuras/Arvoregeradora.png  used on input line 910.
@@ -1132,59 +1273,64 @@ Package pdftex.def Info: figuras/Arvoregeradora.png  used on input line 910.
 
 
 [31 <./figuras/Arvore.png> <./figuras/Arvoregeradora.png>]
-<figuras/Floresta.png, id=496, 569.12625pt x 202.7575pt>
+<figuras/Floresta.png, id=492, 569.12625pt x 202.7575pt>
 File: figuras/Floresta.png Graphic file (type png)
 <use figuras/Floresta.png>
 Package pdftex.def Info: figuras/Floresta.png  used on input line 921.
 (pdftex.def)             Requested size: 273.14923pt x 97.3163pt.
-<figuras/Grafoisomorfico.png, id=497, 569.12625pt x 169.63374pt>
+<figuras/Grafoisomorfico.png, id=493, 569.12625pt x 169.63374pt>
 File: figuras/Grafoisomorfico.png Graphic file (type png)
 <use figuras/Grafoisomorfico.png>
 Package pdftex.def Info: figuras/Grafoisomorfico.png  used on input line 935.
 (pdftex.def)             Requested size: 273.14923pt x 81.41808pt.
-<figuras/Conjuntoidepen.png, id=498, 304.13625pt x 318.18875pt>
+<figuras/Conjuntoidepen.png, id=494, 304.13625pt x 318.18875pt>
 File: figuras/Conjuntoidepen.png Graphic file (type png)
 <use figuras/Conjuntoidepen.png>
 Package pdftex.def Info: figuras/Conjuntoidepen.png  used on input line 954.
 (pdftex.def)             Requested size: 273.14923pt x 285.77974pt.
 
 
-[32 <./figuras/Floresta.png> <./figuras/grafoisomorfico.png>]
-<figuras/Hipergrafo.png, id=511, 290.08376pt x 328.22626pt>
+[32 <./figuras/Floresta.png> <./figuras/Grafoisomorfico.png>]
+<figuras/Hipergrafo.png, id=507, 290.08376pt x 328.22626pt>
 File: figuras/Hipergrafo.png Graphic file (type png)
 <use figuras/Hipergrafo.png>
 Package pdftex.def Info: figuras/Hipergrafo.png  used on input line 977.
 (pdftex.def)             Requested size: 273.14923pt x 309.08363pt.
 
 
-[33 <./figuras/conjuntoidepen.png>]
+[33 <./figuras/Conjuntoidepen.png>]
 
-[34 <./figuras/hipergrafo.png>]
+[34 <./figuras/Hipergrafo.png>]
 Cap\'{\i }tulo 4.
-<figuras/subgrafos/subgrafo1.png, id=531, 2155.05125pt x 1665.22125pt>
+<figuras/subgrafos/subgrafo1.png, id=527, 2155.05125pt x 1665.22125pt>
 File: figuras/subgrafos/subgrafo1.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 1012.
+Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 10
+12.
 (pdftex.def)             Requested size: 218.51521pt x 168.84412pt.
-<figuras/subgrafos/subgrafo2.png, id=532, 1795.70876pt x 1765.59625pt>
+<figuras/subgrafos/subgrafo2.png, id=528, 1795.70876pt x 1765.59625pt>
 File: figuras/subgrafos/subgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo2.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 1019.
+Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 10
+19.
 (pdftex.def)             Requested size: 218.51521pt x 214.8259pt.
-<figuras/subgrafos/subgrafo1usubgrafo2.png, id=533, 3342.4875pt x 2092.81876pt>
+<figuras/subgrafos/subgrafo1usubgrafo2.png, id=529, 3342.4875pt x 2092.81876pt>
+
 File: figuras/subgrafos/subgrafo1usubgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1usubgrafo2.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on input line 1032.
+Package pdftex.def Info: figuras/subgrafos/subgrafo1usubgrafo2.png  used on inp
+ut line 1032.
 (pdftex.def)             Requested size: 364.19667pt x 228.00734pt.
 
 
 [35
 
  <./figuras/subgrafos/subgrafo1.png> <./figuras/subgrafos/subgrafo2.png>]
-<figuras/subgrafos/subgrafo_inter.png, id=543, 593.21625pt x 610.28pt>
+<figuras/subgrafos/subgrafo_inter.png, id=539, 593.21625pt x 610.28pt>
 File: figuras/subgrafos/subgrafo_inter.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_inter.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input line 1048.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input li
+ne 1048.
 (pdftex.def)             Requested size: 182.09486pt x 187.33173pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1054--1056
@@ -1193,16 +1339,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1054--1056
 
 
 
-[36 <./figuras/subgrafos/subgrafo1usubgrafo2.png> <./figuras/subgrafos/subgrafo_inter.png>]
-<figuras/soma_NOVO.png, id=551, 877.2775pt x 555.07375pt>
+[36 <./figuras/subgrafos/subgrafo1usubgrafo2.png> <./figuras/subgrafos/subgrafo
+_inter.png>]
+<figuras/soma_NOVO.png, id=547, 877.2775pt x 555.07375pt>
 File: figuras/soma_NOVO.png Graphic file (type png)
 <use figuras/soma_NOVO.png>
 Package pdftex.def Info: figuras/soma_NOVO.png  used on input line 1062.
 (pdftex.def)             Requested size: 409.71692pt x 259.24156pt.
-<figuras/subgrafos/subgrafo_soma_direta.png, id=553, 1347.0325pt x 759.83875pt>
+<figuras/subgrafos/subgrafo_soma_direta.png, id=549, 1347.0325pt x 759.83875pt>
+
 File: figuras/subgrafos/subgrafo_soma_direta.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_soma_direta.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_soma_direta.png  used on input line 1081.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_soma_direta.png  used on in
+put line 1081.
 (pdftex.def)             Requested size: 273.14923pt x 154.0752pt.
 
 
@@ -1211,36 +1360,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [37 <./figuras/soma_NOVO.png>]
-<figuras/decomposicao.png, id=560, 1811.76875pt x 585.18625pt>
+<figuras/decomposicao.png, id=556, 1811.76875pt x 585.18625pt>
 File: figuras/decomposicao.png Graphic file (type png)
 <use figuras/decomposicao.png>
 Package pdftex.def Info: figuras/decomposicao.png  used on input line 1093.
 (pdftex.def)             Requested size: 455.24411pt x 147.03732pt.
-<figuras/subgrafos/subgrafo_remocao_vertice.png, id=564, 1031.855pt x 628.3475pt>
+<figuras/subgrafos/subgrafo_remocao_vertice.png, id=560, 1031.855pt x 628.3475p
+t>
 File: figuras/subgrafos/subgrafo_remocao_vertice.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_remocao_vertice.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_vertice.png  used on input line 1107.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_vertice.png  used o
+n input line 1107.
 (pdftex.def)             Requested size: 174.81284pt x 106.44373pt.
-<figuras/subgrafos/subgrafo_remocao_aresta.png, id=565, 839.135pt x 788.9475pt>
+<figuras/subgrafos/subgrafo_remocao_aresta.png, id=561, 839.135pt x 788.9475pt>
+
 File: figuras/subgrafos/subgrafo_remocao_aresta.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_remocao_aresta.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_aresta.png  used on input line 1114.
+Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_aresta.png  used on
+ input line 1114.
 (pdftex.def)             Requested size: 174.81284pt x 164.3476pt.
 
 
-[38 <./figuras/subgrafos/subgrafo_soma_direta.png> <./figuras/decomposicao.png>]
-<figuras/fusao_novo_novo.png, id=574, 750.805pt x 800.9925pt>
+[38 <./figuras/subgrafos/subgrafo_soma_direta.png> <./figuras/decomposicao.png>
+]
+<figuras/fusao_novo_novo.png, id=570, 750.805pt x 800.9925pt>
 File: figuras/fusao_novo_novo.png Graphic file (type png)
 <use figuras/fusao_novo_novo.png>
 Package pdftex.def Info: figuras/fusao_novo_novo.png  used on input line 1129.
 (pdftex.def)             Requested size: 193.48013pt x 206.4076pt.
 
 
-[39 <./figuras/subgrafos/subgrafo_remocao_vertice.png> <./figuras/subgrafos/subgrafo_remocao_aresta.png> <./figuras/fusao_novo_novo.png>]
-<figuras/contracao_novo_novo.png, id=582, 992.70876pt x 547.04375pt>
+[39 <./figuras/subgrafos/subgrafo_remocao_vertice.png> <./figuras/subgrafos/sub
+grafo_remocao_aresta.png> <./figuras/fusao_novo_novo.png>]
+<figuras/contracao_novo_novo.png, id=578, 992.70876pt x 547.04375pt>
 File: figuras/contracao_novo_novo.png Graphic file (type png)
 <use figuras/contracao_novo_novo.png>
-Package pdftex.def Info: figuras/contracao_novo_novo.png  used on input line 1144.
+Package pdftex.def Info: figuras/contracao_novo_novo.png  used on input line 11
+44.
 (pdftex.def)             Requested size: 193.48013pt x 106.61884pt.
 
 
@@ -1248,17 +1404,19 @@ Package pdftex.def Info: figuras/contracao_novo_novo.png  used on input line 114
 Cap\'{\i }tulo 5.
 File: figuras/subgrafos/subgrafo1.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1.png>
-Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 1165.
+Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 11
+65.
 (pdftex.def)             Requested size: 227.62206pt x 175.88246pt.
 
 
 [41
 
 ]
-<figuras/BuscaProfundidade.png, id=599, 1725.44624pt x 2168.1pt>
+<figuras/BuscaProfundidade.png, id=595, 1725.44624pt x 2168.1pt>
 File: figuras/BuscaProfundidade.png Graphic file (type png)
 <use figuras/BuscaProfundidade.png>
-Package pdftex.def Info: figuras/BuscaProfundidade.png  used on input line 1202.
+Package pdftex.def Info: figuras/BuscaProfundidade.png  used on input line 1202
+.
 (pdftex.def)             Requested size: 193.48013pt x 243.09021pt.
 
 
@@ -1271,95 +1429,116 @@ Cap\'{\i }tulo 6.
 [44
 
 ]
-<figuras/topologigi.jpeg, id=617, 1284.8pt x 735.74875pt>
+
+[45]
+<figuras/topologigi.jpeg, id=616, 1284.8pt x 735.74875pt>
 File: figuras/topologigi.jpeg Graphic file (type jpg)
 <use figuras/topologigi.jpeg>
-Package pdftex.def Info: figuras/topologigi.jpeg  used on input line 1271.
+Package pdftex.def Info: figuras/topologigi.jpeg  used on input line 1331.
 (pdftex.def)             Requested size: 364.19667pt x 208.55669pt.
 
 
-[45 <./figuras/topologigi.jpeg>]
-<figuras/ford.jpeg, id=623, 1279.78125pt x 861.2175pt>
+[46]
+
+[47 <./figuras/topologigi.jpeg>]
+<figuras/ford.jpeg, id=627, 1279.78125pt x 861.2175pt>
 File: figuras/ford.jpeg Graphic file (type jpg)
 <use figuras/ford.jpeg>
-Package pdftex.def Info: figuras/ford.jpeg  used on input line 1287.
+Package pdftex.def Info: figuras/ford.jpeg  used on input line 1347.
 (pdftex.def)             Requested size: 364.19667pt x 245.08159pt.
 
 
-[46 <./figuras/ford.jpeg>]
+[48 <./figuras/ford.jpeg>]
 
-[47]
+[49]
 Cap\'{\i }tulo 7.
-
-
-[48
-
-]
-Cap\'{\i }tulo 8.
-
-
-[49
-
-]
-Cap\'{\i }tulo 9.
 
 
 [50
 
 ]
-Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 8.
 
 
 [51
 
 ]
-Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 9.
 
 
 [52
 
 ]
-Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 10.
 
 
 [53
 
 ]
-Overfull \hbox (8.50774pt too wide) in paragraph at lines 1332--1332
-[][]\T1/phv/m/sl/12 Calculadora de Emis-sões no Trans-porte \T1/phv/m/n/12 (2025). LAS-TROP ^^V ESALQ/USP. \T1/phv/m/sc/12 url\T1/phv/m/n/12 : []$\T1/cmtt/m/n/12 https :
- []
-
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 1332.
+Cap\'{\i }tulo 11.
 
 
 [54
 
+]
+Cap\'{\i }tulo 12.
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./main.aux)
+
+[55
+
+]
+
+LaTeX Warning: Empty bibliography on input line 1392.
+
+
+
+[56
+
+
+] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0D8624F79ACAD759F23267B9A7DB86C2;6016.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23169 strings out of 467800
- 406906 string characters out of 5431888
- 1261231 words of memory out of 5000000
- 51383 multiletter control sequences out of 15000+600000
- 662237 words of font info for 78 fonts, out of 8000000 for 9000
+ 22907 strings out of 468133
+ 403092 string characters out of 5431681
+ 1260460 words of memory out of 5000000
+ 51103 multiletter control sequences out of 15000+600000
+ 656405 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,852b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (56 pages, 2121982 bytes).
+ 75i,9n,79p,811b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ian/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ian/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ian/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ian/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Ian/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ian/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (58 pages, 2157856 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
  587 words of extra memory for PDF output out of 10000 (max. 10000000)
 
