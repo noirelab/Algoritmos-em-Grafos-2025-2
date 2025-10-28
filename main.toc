@@ -26,10 +26,18 @@
 \contentsline {section}{\numberline {5.3}Componentes Fortemente Conexos}{43}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Considerações de Eficiência}{43}{section.5.4}%
 \contentsline {chapter}{\numberline {6}CAMINHO MÍNIMO}{44}{chapter.6}%
-\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{45}{chapter.7}%
-\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{46}{chapter.8}%
-\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{47}{chapter.9}%
-\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{48}{chapter.10}%
-\contentsline {chapter}{\numberline {11}PLANARIDADE}{49}{chapter.11}%
-\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{50}{chapter.12}%
-\contentsline {chapter}{REFERÊNCIAS}{51}{chapter*.48}%
+\contentsline {section}{\numberline {6.1}Distâncias}{44}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Origem Única}{44}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Algoritmo de Dijkstra}{44}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Ordenação topológica}{44}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Algoritmo de Bellman–Ford}{46}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Entre todos os Pares}{46}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Algoritmo de Floyd Warshall}{47}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Considerações de Eficiência}{47}{section.6.4}%
+\contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{48}{chapter.7}%
+\contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{49}{chapter.8}%
+\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{50}{chapter.9}%
+\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{51}{chapter.10}%
+\contentsline {chapter}{\numberline {11}PLANARIDADE}{52}{chapter.11}%
+\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{53}{chapter.12}%
+\contentsline {chapter}{REFERÊNCIAS}{54}{chapter*.50}%

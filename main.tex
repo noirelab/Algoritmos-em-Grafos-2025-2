@@ -1212,7 +1212,7 @@ Etapa 1: Realizar busca em largura considerando a lista de sucessores
 
 Etapa 2: Realizar busca em largura considerando a lista de predecessores
 
-Etapa 3: O componente fortemente conexo, um subgrafo do grafo de G, é encontrado: 
+Etapa 3: O componente fortemente conexo, um subgrafo do grafo de G, é encontrado:
 
 \begin{equation}
 	V_r = \{\,V^+ \cap V^-\,\} \cup \{\,v_r\,\} \;\text{ e }\;
@@ -1256,7 +1256,42 @@ e de Bellman–Ford.
 
 \subsection{Ordenação topológica}\label{sec:ordTopologica}
 
+O algoritmo de ordenação topológica é aplicado exclusivamente em grafos direcionados e acíclicos (DAGs — \textit{Directed Acyclic Graphs}). Sua finalidade é estabelecer uma sequência linear dos vértices, de modo que, para toda aresta $(u, v)$, o vértice $u$ preceda $v$ na ordenação. Essa propriedade é essencial em problemas que envolvem precedência, como planejamento de tarefas, compilação de dependências e execução de processos com restrições de ordem.
+
+A ideia central consiste em iterativamente selecionar vértices sem predecessores (grau de entrada igual a zero), inserindo-os na sequência ordenada e removendo suas arestas do grafo. O processo se repete até que todos os vértices tenham sido processados ou até que não restem vértices com grau de entrada zero, o que indicaria a presença de ciclos.
+
+Considerando o grafo da Figura~\ref{fig:ordTopologica}, representando dependências entre tarefas, cada aresta $(u,v)$ indica que a tarefa $u$ deve ser concluída antes de $v$. Aplicando o algoritmo, obtém-se uma possível sequência válida:
+
+\[
+V_1, V_4, V_5, V_8
+\]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figuras/topologigi.jpeg}
+    \caption{Exemplo de grafo direcionado acíclico (DAG) para aplicação do algoritmo de ordenação topológica.}
+    \label{fig:ordTopologica}
+\end{figure}
+
+O algoritmo percorre todos os vértices e arestas uma única vez, resultando em complexidade de tempo $O(|V| + |E|)$. O custo de espaço também é $O(|V|)$ devido às estruturas auxiliares utilizadas (fila e vetor de graus de entrada).
+
+\newpage
 \subsection{Algoritmo de Bellman–Ford}\label{sec:bellmanFord}
+
+O algoritmo de Bellman–Ford é utilizado para determinar o caminho mínimo a partir de uma única origem em grafos ponderados, podendo conter arestas com pesos negativos. Diferentemente de Dijkstra, ele é capaz de identificar a presença de ciclos de peso negativo, tornando-se mais versátil em situações em que tais ciclos podem ocorrer.
+
+A abordagem baseia-se no \textit{relaxamento} iterativo das arestas. Para cada aresta $(u, v)$, verifica-se se o caminho até $v$ pode ser melhorado passando por $u$. Esse processo é repetido $(|V| - 1)$ vezes, pois o caminho mais curto entre dois vértices não pode conter mais do que $(|V| - 1)$ arestas. Ao final, uma iteração adicional permite verificar a existência de ciclos de peso negativo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figuras/ford.jpeg}
+    \caption{Exemplo de grafo ponderado aplicado ao algoritmo de Bellman–Ford.}
+    \label{fig:bellmanFord}
+\end{figure}
+
+Como não houve otimização na segunda iteração, a existência das outras $(|V| - 1)$ é desnecessária.
+
+O custo de tempo é $O(|V| \times |E|)$, pois todas as arestas são verificadas em cada uma das $(|V| - 1)$ iterações. O custo de espaço é $O(|V|)$, utilizado para armazenar as distâncias e predecessores.
 
 \section{Entre todos os Pares}\label{sec:entrePares}
 
