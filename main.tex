@@ -1361,8 +1361,106 @@ A Seção 6.3.1 apresenta o algoritmo de Floyd-Warshall que calcula os caminhos 
 grafos não orientados.
 
 \subsection{Algoritmo de Floyd Warshall}\label{sec:floydW}
+O algoritmo de Floyd Warshall foi concebido com o objetivo de reduzir o custo computacional, a partir de uma programação dinâmica: Se o caminho mínimo de um vértice $ v_0 \in V[G] $ a um $ v_d \in V[G] $ passa por $ v_k  \in V[G] $, então $ v_0 \text{à} v_k $ é caminho parcial de $ v_0 \text{à} v_d $, que devem ser mínimos. Apenas existirá caminhos mínimos entre todos os pares de vértices se o grafo for F-conexo, para orientados, ou conexo, para não orientados. Esse algoritmo permite o uso de pesos negativos, desde que, o grafo de entrada não possua ciclos negativos. É aplicado o relaxamento de peso, ou seja, ele aprimora a estimação de peso a cada iteração até que atinja o valor ótimo. Para utilizar o algoritmo, deve-se utilizar a matriz de adjacência como representação, numerando os vértices de 1,2,3,4... . Para identificar pares de vértices, o algoritmo utiliza do conceito de vértices intermediários, isto é, qualquer vértice que está no caminho entre um vértice a outro. Esses vértices são percebidos de forma recursiva, selecionando sempre o menor peso para obter o melhor caminho.
+O passo a passo do algoritmo consiste em selecionar um índice correspondente a um vértice intermediário, de forma incremental. Dessa forma, é feita a varredura de todos os possíveis caminhos, o menor é  selecionado para comparar com o que se já está mapeado (caso já esteja). Esse processo é feito até que todos os vértices intermediários sejam percorridos.
+Introduzido o algoritmo, pode-se aplicá-lo a um trecho do grafo trabalhado nesse memorial a fim de compreendê-lo na prática:
+
+\begin{figure} [H]
+	\centering
+	\caption{Trecho Selecionado para Aplicar Floyd Warshall}%% Legenda
+	\label{fig:grafFloydWarshall}%% Rótulo
+	\includegraphics[width=0.5\linewidth,angle=0]{figuras/tiposgrafos/grafFloydWarshall.png}%% Dimensões e localização
+	\\
+	\centering{Fonte: Criação própria}%% Fonte
+\end{figure}
+Primeiro, devemos inicializar nossas matrizes, evidenciar como os caminhos são percebidos à principio:
+\begin{equation}
+	p_c = 
+	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-1}
+		0 & 92,82 & \infty & \infty \\% 1
+		92,82 & 0 & 24,43 & 74,91 \\% 2
+		\infty & 24,43 & 0 & 85,49 \\% 3
+		\infty & 74,91 & 85,49 & 0 \\% 4
+	\end{bmatrix}	
+\end{equation}
+
+\begin{equation}
+	pai = 
+\begin{bmatrix} \label{eq:matrizAdjFloydWarshall-1}
+	\text{NULL} & 1 & \text{NULL} & \text{NULL} \\% 1
+	4 & \text{NULL} & 4 & 4 \\% 2
+	\text{NULL} & 5 & \text{NULL} & 5 \\% 3
+	\text{NULL} & 8 & 8 & \text{NULL} \\% 4
+\end{bmatrix}
+\end{equation}
+
+Para $ k = 1 $ temos:
+
+\begin{equation}
+	p_c = 
+	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-2}
+		0 & 92,82 & \infty & \infty \\% 1
+		92,82 & 0 & 24,43 & 74,91 \\% 2
+		\infty & 24,43 & 0 & 85,49 \\% 3
+		\infty & 74,91 & 85,49 & 0 \\% 4
+	\end{bmatrix}	
+\end{equation}
+
+\begin{equation}
+	pai = 
+	\begin{bmatrix} \label{eq:matrizAdjFloydWarshall-2}
+		\text{NULL} & 1 & \text{NULL} & \text{NULL} \\% 1
+		4 & \text{NULL} & 4 & 4 \\% 2
+		\text{NULL} & 5 & \text{NULL} & 5 \\% 3
+		\text{NULL} & 8 & 8 & \text{NULL} \\% 4
+	\end{bmatrix}
+\end{equation}
+
+Note que, nada muda: o $ v_1 $ não é intermediário em nenhum dos caminhos mínimos possíveis.
+
+Para $ k = 2 $ temos:
+
+\begin{equation}
+	p_c = 
+	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-3}
+		0 & 92,82 & 117,25 & 167,73 \\% 1
+		92,82 & 0 & 24,43 & 74,91 \\% 2
+		117,25 & 24,43 & 0 & 85,49 \\% 3
+		167,73 & 74,91 & 85,49 & 0 \\% 4
+	\end{bmatrix}	
+\end{equation}
+
+\begin{equation}
+	pai = 
+	\begin{bmatrix} \label{eq:matrizAdjFloydWarshall-3}
+		\text{NULL} & 1 & 4 & 4 \\% 1
+		4 & \text{NULL} & 4 & 4 \\% 2
+		4 & 5 & \text{NULL} & 5 \\% 3
+		4 & 8 & 8 & \text{NULL} \\% 4
+	\end{bmatrix}
+\end{equation}
+
+Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobertos, e é possível concluir que o principal vértice intermediário é o $ v_4 $, já que ele conecta todos os outros vértices. 
 
 \section{Considerações de Eficiência}\label{sec:caminhoEfic}
+
+\subsection{Algoritmo de Dijkstra}\label{sec:dijkstraO}
+
+	O algoritmo de Dijkstra é utilizado para que não possuem pesos negativos e possui melhor custo computacional quando é aplicado o heap de fibonacci, resultando em $ O(Vlog(V) + X) $
+
+\subsection{Ordenação topológica}\label{sec:ordTopologicaO}
+	A ordenação topológica é utilizado para grafos orientados acíclicos (DAGs) e possui melhor custo computacional quando é representado com a lista de adjacência, resultando em $ O(V + E) $, e, no pior caso, $ O(v^2) $
+\subsection{Algoritmo de Bellman–Ford}\label{sec:bellmanFordO}
+
+	O algoritmo de Bellman-Ford é utilizado  e possui melhor custo computacional quando é quando se utiliza lista de adjacências, resultando em $ O(V+E) $, e no pior caso $ O(V \times X) $. Para grafos densos, o melhor caso é $ O(V^2) $ e, no pior caso, $ O(V^3) $.
+
+\subsection{Algoritmo de Floyd Warshall}\label{sec:floydWO}
+
+	O algoritmo de Floyd Warshall, pensado para possuir o melhor custo computacional, é utilizado para todos os pares em grafos densos e possui custo de $ O(V^3) $
+
+\subsection{Aplicações dos algoritmos}\label{sec:difAG}
+
+	Quando possuir um grafo esparso e sem arestas negativas, deve-se optar pelo algoritmo Dijkstra. Quando possui um grafo denso e sem arestas negativas, deve-se optar pelo Floyd Warshall. Quando possuir um grafo com arestas negativas, deve-se optar por Bellman-Ford ou Floyd Warshall. Quando seu grafo for aciclico, com arestas negativas e direcionado, deve-se optar por ordenação topológica.
 
 \chapter{ARVORE DE COBERTURA MÍNIMA}\label{cap:arvCobMinima}
 
