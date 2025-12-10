@@ -46,6 +46,13 @@
 \contentsline {section}{\numberline {8.1}Grafo Euleriano}{56}{section.8.1}%
 \contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{57}{chapter.9}%
 \contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{58}{chapter.10}%
-\contentsline {chapter}{\numberline {11}PLANARIDADE}{59}{chapter.11}%
-\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{60}{chapter.12}%
-\contentsline {chapter}{REFERÊNCIAS}{61}{chapter*.52}%
+\contentsline {section}{\numberline {10.1}Caminho Alternante}{58}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Caminho Aumentante}{58}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Emparelhamento Maximal}{59}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Emparelhamento Máximo}{59}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Emparelhamento Perfeito}{59}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Algoritmo Húngaro}{60}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Algoritmo de Edmonds (Blossom)}{60}{section.10.7}%
+\contentsline {chapter}{\numberline {11}PLANARIDADE}{62}{chapter.11}%
+\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{63}{chapter.12}%
+\contentsline {chapter}{REFERÊNCIAS}{64}{chapter*.52}%

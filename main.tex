@@ -1375,17 +1375,17 @@ Introduzido o algoritmo, pode-se aplicá-lo a um trecho do grafo trabalhado ness
 \end{figure}
 Primeiro, devemos inicializar nossas matrizes, evidenciar como os caminhos são percebidos à principio:
 \begin{equation}
-	p_c = 
+	p_c =
 	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-1}
 		0 & 92,82 & \infty & \infty \\% 1
 		92,82 & 0 & 24,43 & 74,91 \\% 2
 		\infty & 24,43 & 0 & 85,49 \\% 3
 		\infty & 74,91 & 85,49 & 0 \\% 4
-	\end{bmatrix}	
+	\end{bmatrix}
 \end{equation}
 
 \begin{equation}
-	pai = 
+	pai =
 \begin{bmatrix} \label{eq:matrizAdjFloydWarshall-1}
 	\text{NULL} & 1 & \text{NULL} & \text{NULL} \\% 1
 	4 & \text{NULL} & 4 & 4 \\% 2
@@ -1397,17 +1397,17 @@ Primeiro, devemos inicializar nossas matrizes, evidenciar como os caminhos são 
 Para $ k = 1 $ temos:
 
 \begin{equation}
-	p_c = 
+	p_c =
 	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-2}
 		0 & 92,82 & \infty & \infty \\% 1
 		92,82 & 0 & 24,43 & 74,91 \\% 2
 		\infty & 24,43 & 0 & 85,49 \\% 3
 		\infty & 74,91 & 85,49 & 0 \\% 4
-	\end{bmatrix}	
+	\end{bmatrix}
 \end{equation}
 
 \begin{equation}
-	pai = 
+	pai =
 	\begin{bmatrix} \label{eq:matrizAdjFloydWarshall-2}
 		\text{NULL} & 1 & \text{NULL} & \text{NULL} \\% 1
 		4 & \text{NULL} & 4 & 4 \\% 2
@@ -1421,17 +1421,17 @@ Note que, nada muda: o $ v_1 $ não é intermediário em nenhum dos caminhos mí
 Para $ k = 2 $ temos:
 
 \begin{equation}
-	p_c = 
+	p_c =
 	\begin{bmatrix} \label{eq:matrizCustoFloydWarshall-3}
 		0 & 92,82 & 117,25 & 167,73 \\% 1
 		92,82 & 0 & 24,43 & 74,91 \\% 2
 		117,25 & 24,43 & 0 & 85,49 \\% 3
 		167,73 & 74,91 & 85,49 & 0 \\% 4
-	\end{bmatrix}	
+	\end{bmatrix}
 \end{equation}
 
 \begin{equation}
-	pai = 
+	pai =
 	\begin{bmatrix} \label{eq:matrizAdjFloydWarshall-3}
 		\text{NULL} & 1 & 4 & 4 \\% 1
 		4 & \text{NULL} & 4 & 4 \\% 2
@@ -1440,7 +1440,7 @@ Para $ k = 2 $ temos:
 	\end{bmatrix}
 \end{equation}
 
-Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobertos, e é possível concluir que o principal vértice intermediário é o $ v_4 $, já que ele conecta todos os outros vértices. 
+Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobertos, e é possível concluir que o principal vértice intermediário é o $ v_4 $, já que ele conecta todos os outros vértices.
 
 \section{Considerações de Eficiência}\label{sec:caminhoEfic}
 
@@ -1467,31 +1467,31 @@ Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobert
 \subsection{Algoritmo de Krustal}
 
 	Para obter a árvore de cobertura mínima pelo algoritmo de Krustal, primeiramente, temos que pegar o grafo e ordenar todas as arestas por peso, da mais leve para a mais pesada, o grafo usado será o grafo inteiro, que está na imagem 2.1.
-	
-	
+
+
 	A partir do grafo escolhido e com as arestas ordenadas de forma crescente, separamos duas filas, uma de conjunto e outra de quantidade de cada conjunto, inicializando-as de 1 até 16 e 1 em todas as 16 posições, respectivamente.
-	
-	
+
+
 	Com as filas preparadas, começamos a pegar cada aresta e comparamos o conjunto de cada um, pela ordenação, a aresta (4,5) é a primeira, e a partir dela, temos que o conjunto 4 é diferente do de 5, então a partir disso, um dos dois conjuntos se tornará parte do outro, para definir qual será, temos que olhar para a outra fila de quantidade, no qual todos estão como 1, então podemos escolher qualquer um para tal, no caso, vamos colocar 4 no conjunto 5, então nas próximas comparações, o V4 será 5 e agora mudamos na fila de quantidades, que no conjunto 5, se tem 2 membros, e no conjunto 4, se tem 0.
-	
-	
+
+
 	Para simplificar a explicação, vou apenas destacar alguns detalhes do algoritmo com exemplos reais do processo a ser realizado.
-	
-	
+
+
 	No momento em que vamos usar a aresta (7,11), temos que o conjunto 7 faz parte do 12, então a comparação a ser feita com 11 é de 12 com 11, e não 7 com 11, nesse caso 12 != 11, e ao analisar, vemos que o 12 tem maior quantidade de membros em seu conjunto, nesse caso, obrigatoriamente, o 11 começa a fazer parte do conjunto 12, então a quantidade de membros em 11 será reduzida pra 0 e iremos aumentar o de 12 com a diferença restante do 11.
-	
-	
+
+
 	Quando analisamos a aresta (6,10) vemos que 10 equivale a 11, porém, o 11 equivale a 12, nesse caso, a comparação é feita com o 12, e nada se altera no 10, porque por mais que 11 não tenha mais nenhum membro em conjunto, o 11 ainda aponta para 12, o que faz com que 10 automaticamente aponte para 12 também, nesse caso 12 != 13 (6 equivale a 13), e adicionamos 13 para o conjunto 12.
-	
-	
+
+
 	Quando analisamos a aresta (13,10) vemos que os dois levam ao conjunto 12, nesse caso, essa aresta não é adicionada, pois se for, criará um ciclo, que é proibido em uma árvore, nesse caso, nada se altera, apenas se segue para a próxima aresta.
-	
-	
+
+
 	Depois de analisar a aresta (11,15), vemos que na fila de quantidades, todos os espaços estão em 0 e apenas o 12 tem 16 membros, como o total de vértices é 16, já podemos garantir que nenhuma aresta a mais será adicionada, já que todas já foram contempladas, e qualquer aresta adicional, criaria um ciclo novo.
-	
-	
+
+
 	No fim de todas as comparações, temos a árvore de cobertura mínima a partir do algoritmo de krustal.
-	
+
 	\begin{figure} [H]
 		\centering
 		\caption{Árvore de cob mínima por Krustal}%% Legenda
@@ -1500,31 +1500,31 @@ Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobert
 		\\
 		\centering{Fonte: Criação própria}%% Fonte
 	\end{figure}
-	
+
 \subsection{Algoritmo de Prim}
-	
+
 	Podemos obter a árvore de cobertura mínima também pelo algoritmo de Prim, que é melhor em relação a processamento computacional que o de Krustal.
-	
-	
+
+
 	O algoritmo de Prim é parecido com o anteriormente mencionado algoritmo de Dijkstra no capitulo 6.2.1, a única diferença entre os dois, é que o de Prim não soma os pesos, eles são comparados em seus valores brutos, já que não buscamos um caminho, mas sim uma árvore, de resto, o processo é idêntico, o que o torna relativamente mais simples que o de Dijkstra.
-	
-	
+
+
 	No processo, usamos 3 filas, fila Pai, que vai definir o vértice pai de cada um, o que no fim define as arestas que estão na árvore; fila de pesos, que vai mostrar o peso de cada aresta na árvore e a fila de prioridade, que vai definir qual o próximo vértice que será contemplado, a fila é definida por peso, então caso a fila de prioridade já tenha todos os membros, e algum peso se altere, ela vai se alterar também, e depois que se contempla algum vértice, ele é desenfileirado, e a partir disso seu vértice pai nem seu peso pode ser alterado.
-	
+
 	As filas são inicializadas da seguinte forma: A fila pai será inicializada com NULL em todas as posições, e será alterado seus valores ao longo do algoritmo; A fila de pesos será definida com todos os membros com valores muito altos, para não atrapalharem a fila de prioridade; e por fim, a fila de prioridade, que será iniciada em ordem crescente, já que a ordem da fila no momento inicial não importa necessariamente, porque os pesos são "iguais" no momento da criação da fila .
-	
-	
+
+
 	Ao realizar o processo do algoritmo, priorizamos nas comparações os menores pesos, então quando temos 2 arestas para o mesmo vértice, o mais leve é o que entrará na árvore, e o outro será esquecido, para evitar ciclos dentro da árvore.
 	Exemplo:
 	Quando o 13 é desenfileirado da fila de prioridades, vemos que ele é adjacente a 10, o qual já estava na fila Pai o 6, então é feito a comparação dos pesos entre (6,10) e (13,10), e ao analisar, mantemos o (6,10), pois seu peso é menor, e na árvore final, não terá a aresta (13,10).
-	
-	
+
+
 	No fim, temos a seguinte fila pai:
-	
+
 	[NULL,1,11,8,4,2,11,12,6,6,10,7,9,15,11,15]
-	
+
 	E ao fazer a árvore de cobertura mínima, vemos que ela é identica a que pegamos pelo algoritmo de Krustal, mostrando que os dois chegam ao mesmo lugar, mas o de prim é melhor computacionalmente falando.
-	
+
 
 
 \chapter{GRAFOS EULERIANOS}\label{cap:grafosEulerianos}
@@ -1545,7 +1545,104 @@ Fleury, são dadas na Seção 8.5.
 
 \chapter{EMPARELHAMENTO}\label{cap:emparelhamento}
 
+O emparelhamento em grafos (ou \textit{matching}) é um conceito fundamental na teoria dos grafos, com vastas aplicações em problemas de alocação de recursos, logística e otimização combinatória. No contexto do problema logístico descrito neste trabalho, o emparelhamento pode ser interpretado como a atribuição de veículos a rotas, ou de motoristas a caminhões, de modo que nenhum recurso seja compartilhado simultaneamente por duas tarefas distintas.
 
+Formalmente, dado um grafo $G=(V, A)$, um emparelhamento $M$ é um subconjunto de arestas $M \subseteq A$ tal que nenhum par de arestas em $M$ compartilha um vértice em comum. Ou seja, para todo $v \in V$, o vértice $v$ incide em no máximo uma aresta de $M$.
+
+\section{Caminho Alternante}\label{sec:caminhoAlternante}
+
+Para compreender a maximização de emparelhamentos, é necessário definir o conceito de caminho alternante. Dado um emparelhamento $M$ em um grafo $G$, um vértice é dito saturado se ele é extremidade de alguma aresta em $M$, e livre (ou não saturado) caso contrário.
+
+Um caminho alternante é um caminho simples cujas arestas se alternam entre pertencerem a $M$ e não pertencerem a $M$ ($A \setminus M$).
+
+Considerando o grafo $G_1$ do nosso estudo, suponha um emparelhamento inicial arbitrário $M = \{(1,2), (4,5)\}$.
+\begin{itemize}
+    \item Arestas em $M$: $(V_1, V_2)$ e $(V_4, V_5)$.
+    \item Vértices saturados: $\{1, 2, 4, 5\}$.
+    \item Vértices livres (exemplo): $\{3, 6, 8, \dots\}$.
+\end{itemize}
+
+Um exemplo de caminho alternante partindo do vértice livre $V_3$ seria:
+\[ P = (V_3, V_1, V_2, V_6) \]
+Onde $(V_3, V_1) \notin M$, $(V_1, V_2) \in M$ e $(V_2, V_6) \notin M$.
+
+\section{Caminho Aumentante}\label{sec:caminhoAumentante}
+
+Um caminho aumentante é um tipo especial de caminho alternante que começa e termina em vértices livres (não saturados). A propriedade fundamental deste caminho é que ele possui um número ímpar de arestas, tendo uma aresta a mais fora de $M$ do que dentro de $M$.
+
+Utilizando o exemplo da seção anterior com $M = \{(1,2), (4,5)\}$ e o caminho $P = (V_3, V_1, V_2, V_6)$:
+\begin{itemize}
+    \item Início: $V_3$ (Livre).
+    \item Fim: $V_6$ (Livre).
+\end{itemize}
+
+Ao inverter a pertinência das arestas deste caminho em relação a $M$ (operação de diferença simétrica $M \oplus P$), obtemos um novo emparelhamento $M'$ com uma aresta a mais.
+\[ M' = M \oplus P = \{(3,1), (2,6), (4,5)\} \]
+O tamanho do emparelhamento aumentou de 2 para 3 arestas. Segundo o Teorema de Berge, um emparelhamento $M$ é máximo se, e somente se, não existe caminho aumentante em relação a $M$.
+
+\section{Emparelhamento Maximal}\label{sec:emparelhamentoMaximal}
+
+Um emparelhamento $M$ é dito maximal se ele não pode ser estendido pela simples adição de uma aresta. Ou seja, se adicionarmos qualquer aresta $e \in A \setminus M$ ao conjunto, a propriedade de emparelhamento é violada (a aresta $e$ compartilha um vértice com alguma aresta já existente em $M$).
+
+É importante notar que um emparelhamento maximal não é necessariamente um emparelhamento máximo (o maior possível). Ele é apenas um máximo local em relação à inclusão de arestas.
+
+No nosso grafo, o conjunto $M_{maximal} = \{(4,8), (6,10), (11,15)\}$ é maximal, pois qualquer outra aresta que tentarmos adicionar conectará a um vértice já utilizado (por exemplo, $(1,4)$ conecta ao 4 que já está em uso).
+
+\section{Emparelhamento Máximo}\label{sec:emparelhamentoMaximo}
+
+Um emparelhamento é máximo se possui a maior cardinalidade possível entre todos os emparelhamentos do grafo. Todo emparelhamento máximo é maximal, mas a recíproca não é verdadeira.
+
+O número de arestas em um emparelhamento máximo é denotado pelo número de emparelhamento do grafo, $\nu(G)$. Para encontrar o emparelhamento máximo em grafos gerais, algoritmos iterativos buscam caminhos aumentantes até que estes se esgotem.
+
+\section{Emparelhamento Perfeito}\label{sec:emparelhamentoPerfeito}
+
+Um emparelhamento $M$ é perfeito se ele satura todos os vértices do grafo. Ou seja, todo vértice do grafo é extremidade de exatamente uma aresta em $M$.
+Para que um emparelhamento perfeito exista, é condição necessária (mas não suficiente) que o número de vértices $|V|$ seja par.
+
+\[ |M| = \frac{|V|}{2} \]
+
+Como o grafo $G_1$ possui $|V|=16$ (par), um emparelhamento perfeito conteria exatamente 8 arestas.
+
+\section{Algoritmo Húngaro}\label{sec:algoritmoHungaro}
+
+O Algoritmo Húngaro é um método de otimização combinatória que resolve o problema de atribuição em tempo polinomial $O(V^3)$. No entanto, ele é aplicável especificamente a grafos bipartidos ponderados. Como o grafo $G_1$ estudado não é bipartido (possui ciclos de comprimento ímpar, ex: $V_4-V_5-V_8$), simularemos uma aplicação do algoritmo considerando um subproblema de logística.
+
+Suponha um subgrafo bipartido onde o conjunto $X$ representa centros de distribuição (CDs) e o conjunto $Y$ representa pontos de entrega, com os pesos das arestas representando custos (distâncias).
+
+\textbf{Exemplo de Matriz de Custos:}
+\[
+\begin{bmatrix}
+    & Y_1 & Y_2 & Y_3 \\
+X_1 & 10 & 19 & 8 \\
+X_2 & 10 & 18 & 7 \\
+X_3 & 13 & 16 & 9
+\end{bmatrix}
+\]
+
+O algoritmo segue os passos:
+\begin{enumerate}
+    \item \textbf{Redução das linhas:} Subtrair o menor elemento de cada linha de todos os elementos daquela linha.
+    \item \textbf{Redução das colunas:} Subtrair o menor elemento de cada coluna da matriz resultante.
+    \item \textbf{Cobertura de zeros:} Cobrir todos os zeros com o número mínimo de linhas horizontais ou verticais. Se o número de linhas for igual à dimensão da matriz, a solução ótima foi encontrada.
+    \item \textbf{Ajuste:} Caso contrário, subtrai-se o menor elemento não coberto dos não cobertos e soma-se às interseções das linhas.
+\end{enumerate}
+
+Aplicando ao exemplo, a atribuição de custo mínimo seria encontrada, garantindo a eficiência logística entre os dois conjuntos disjuntos.
+
+\section{Algoritmo de Edmonds (Blossom)}\label{sec:algoritmoEdmonds}
+
+Para encontrar o emparelhamento máximo em grafos gerais (não bipartidos), como é o caso do grafo $G_1$ deste projeto, o algoritmo padrão de busca por caminhos aumentantes falha devido à presença de ciclos ímpares.
+
+O Algoritmo de Edmonds, também conhecido como \textit{Blossom Algorithm}, resolve este problema tratando os ciclos ímpares.
+
+Um \textit{blossom} é um ciclo ímpar $C$ de $2k+1$ arestas onde $k$ arestas pertencem ao emparelhamento $M$, e existe um vértice $v$ no ciclo (a base) tal que existe um caminho alternante de um vértice livre até $v$.
+\begin{enumerate}
+    \item O algoritmo busca caminhos aumentantes a partir de vértices livres.
+    \item Se encontrar um ciclo ímpar durante a busca (um \textit{blossom}), o algoritmo contrai todo o ciclo em um único super-vértice.
+    \item O grafo contraído é então examinado. Se um caminho aumentante é encontrado no grafo contraído, ele pode ser expandido de volta para o grafo original.
+\end{enumerate}
+
+No grafo $G_1$, a estrutura triangular $V_4-V_5-V_8$ é um exemplo de ciclo ímpar que, dependendo da configuração do emparelhamento, poderia formar um \textit{blossom}, exigindo a contração para que o algoritmo prosseguisse corretamente na identificação do emparelhamento máximo.
 \chapter{PLANARIDADE}\label{cap:planaridade}
 
 
