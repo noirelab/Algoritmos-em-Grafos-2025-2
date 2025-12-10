@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.7)  28 OCT 2025 07:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.7)  10 DEC 2025 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -936,7 +936,7 @@ Cap\'{\i }tulo 2.
 [10
 
 ]
-<figuras/grafoGeometrico.png, id=292, 633.3261pt x 497.6994pt>
+<figuras/grafoGeometrico.png, id=327, 633.3261pt x 497.6994pt>
 File: figuras/grafoGeometrico.png Graphic file (type png)
 <use figuras/grafoGeometrico.png>
 Package pdftex.def Info: figuras/grafoGeometrico.png  used on input line 344.
@@ -949,7 +949,7 @@ Overfull \hbox (33.65958pt too wide) in paragraph at lines 344--346
 
 
 [11 <./figuras/grafoGeometrico.png>]
-<figuras/grafoListaAdj.png, id=302, 507.8172pt x 578.6418pt>
+<figuras/grafoListaAdj.png, id=337, 507.8172pt x 578.6418pt>
 File: figuras/grafoListaAdj.png Graphic file (type png)
 <use figuras/grafoListaAdj.png>
 Package pdftex.def Info: figuras/grafoListaAdj.png  used on input line 385.
@@ -989,13 +989,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 542.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 542.
-<figuras/tiposgrafos/singleton.png, id=335, 37.0986pt x 37.0986pt>
+<figuras/tiposgrafos/singleton.png, id=370, 37.0986pt x 37.0986pt>
 File: figuras/tiposgrafos/singleton.png Graphic file (type png)
 <use figuras/tiposgrafos/singleton.png>
 Package pdftex.def Info: figuras/tiposgrafos/singleton.png  used on input line 
 548.
 (pdftex.def)             Requested size: 45.52718pt x 45.52795pt.
-<figuras/tiposgrafos/grafVazio.png, id=336, 208.6194pt x 253.9086pt>
+<figuras/tiposgrafos/grafVazio.png, id=371, 208.6194pt x 253.9086pt>
 File: figuras/tiposgrafos/grafVazio.png Graphic file (type png)
 <use figuras/tiposgrafos/grafVazio.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafVazio.png  used on input line 
@@ -1004,13 +1004,13 @@ Package pdftex.def Info: figuras/tiposgrafos/grafVazio.png  used on input line
 
 
 [17 <./figuras/tiposgrafos/singleton.png>]
-<figuras/tiposgrafos/buque.png, id=345, 173.9298pt x 105.7551pt>
+<figuras/tiposgrafos/buque.png, id=380, 173.9298pt x 105.7551pt>
 File: figuras/tiposgrafos/buque.png Graphic file (type png)
 <use figuras/tiposgrafos/buque.png>
 Package pdftex.def Info: figuras/tiposgrafos/buque.png  used on input line 567.
 
 (pdftex.def)             Requested size: 227.62206pt x 138.40625pt.
-<figuras/tiposgrafos/pseudografo.png, id=346, 258.0039pt x 233.4321pt>
+<figuras/tiposgrafos/pseudografo.png, id=381, 258.0039pt x 233.4321pt>
 File: figuras/tiposgrafos/pseudografo.png Graphic file (type png)
 <use figuras/tiposgrafos/pseudografo.png>
 Package pdftex.def Info: figuras/tiposgrafos/pseudografo.png  used on input lin
@@ -1024,7 +1024,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--579
 
 
 [18 <./figuras/tiposgrafos/grafVazio.png> <./figuras/tiposgrafos/buque.png>]
-<figuras/tiposgrafos/grafReflex.png, id=355, 246.6816pt x 132.7359pt>
+<figuras/tiposgrafos/grafReflex.png, id=390, 246.6816pt x 132.7359pt>
 File: figuras/tiposgrafos/grafReflex.png Graphic file (type png)
 <use figuras/tiposgrafos/grafReflex.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafReflex.png  used on input line
@@ -1035,7 +1035,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--588
 
  []
 
-<figuras/tiposgrafos/multigrafo.png, id=356, 246.6816pt x 238.9728pt>
+<figuras/tiposgrafos/multigrafo.png, id=391, 246.6816pt x 238.9728pt>
 File: figuras/tiposgrafos/multigrafo.png Graphic file (type png)
 <use figuras/tiposgrafos/multigrafo.png>
 Package pdftex.def Info: figuras/tiposgrafos/multigrafo.png  used on input line
@@ -1050,7 +1050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 589--597
 
 [19 <./figuras/tiposgrafos/pseudografo.png> <./figuras/tiposgrafos/grafReflex.p
 ng>]
-<figuras/tiposgrafos/multigrafoDirec.png, id=365, 254.3904pt x 238.9728pt>
+<figuras/tiposgrafos/multigrafoDirec.png, id=400, 254.3904pt x 238.9728pt>
 File: figuras/tiposgrafos/multigrafoDirec.png Graphic file (type png)
 <use figuras/tiposgrafos/multigrafoDirec.png>
 Package pdftex.def Info: figuras/tiposgrafos/multigrafoDirec.png  used on input
@@ -1061,7 +1061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--606
 
  []
 
-<figuras/tiposgrafos/grafoSimples.png, id=366, 463.4916pt x 238.9728pt>
+<figuras/tiposgrafos/grafoSimples.png, id=401, 463.4916pt x 238.9728pt>
 File: figuras/tiposgrafos/grafoSimples.png Graphic file (type png)
 <use figuras/tiposgrafos/grafoSimples.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafoSimples.png  used on input li
@@ -1076,7 +1076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--615
 
 [20 <./figuras/tiposgrafos/multigrafo.png> <./figuras/tiposgrafos/multigrafoDir
 ec.png>]
-<figuras/tiposgrafos/grafAcicl.png, id=375, 246.6816pt x 238.9728pt>
+<figuras/tiposgrafos/grafAcicl.png, id=410, 246.6816pt x 238.9728pt>
 File: figuras/tiposgrafos/grafAcicl.png Graphic file (type png)
 <use figuras/tiposgrafos/grafAcicl.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafAcicl.png  used on input line 
@@ -1087,7 +1087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--624
 
  []
 
-<figuras/tiposgrafos/grafCiclo.png, id=376, 197.7789pt x 217.7736pt>
+<figuras/tiposgrafos/grafCiclo.png, id=411, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafCiclo.png Graphic file (type png)
 <use figuras/tiposgrafos/grafCiclo.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafCiclo.png  used on input line 
@@ -1102,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--633
 
 [21 <./figuras/tiposgrafos/grafoSimples.png> <./figuras/tiposgrafos/grafAcicl.p
 ng>]
-<figuras/tiposgrafos/grafRoda.png, id=385, 197.7789pt x 217.7736pt>
+<figuras/tiposgrafos/grafRoda.png, id=420, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafRoda.png Graphic file (type png)
 <use figuras/tiposgrafos/grafRoda.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafRoda.png  used on input line 6
@@ -1113,7 +1113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 634--642
 
  []
 
-<figuras/tiposgrafos/grafRegular.png, id=386, 197.7789pt x 217.7736pt>
+<figuras/tiposgrafos/grafRegular.png, id=421, 197.7789pt x 217.7736pt>
 File: figuras/tiposgrafos/grafRegular.png Graphic file (type png)
 <use figuras/tiposgrafos/grafRegular.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafRegular.png  used on input lin
@@ -1127,7 +1127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--651
 
 
 [22 <./figuras/tiposgrafos/grafCiclo.png> <./figuras/tiposgrafos/grafRoda.png>]
-<figuras/tiposgrafos/grafSimetrico.png, id=395, 253.9086pt x 284.0211pt>
+<figuras/tiposgrafos/grafSimetrico.png, id=430, 253.9086pt x 284.0211pt>
 File: figuras/tiposgrafos/grafSimetrico.png Graphic file (type png)
 <use figuras/tiposgrafos/grafSimetrico.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafSimetrico.png  used on input l
@@ -1141,7 +1141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--660
 
 
 [23 <./figuras/tiposgrafos/grafRegular.png>]
-<figuras/tiposgrafos/grafAssimet.png, id=403, 253.9086pt x 235.8411pt>
+<figuras/tiposgrafos/grafAssimet.png, id=438, 253.9086pt x 235.8411pt>
 File: figuras/tiposgrafos/grafAssimet.png Graphic file (type png)
 <use figuras/tiposgrafos/grafAssimet.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafAssimet.png  used on input lin
@@ -1152,7 +1152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--669
 
  []
 
-<figuras/tiposgrafos/torneio.png, id=404, 258.7266pt x 235.8411pt>
+<figuras/tiposgrafos/torneio.png, id=439, 258.7266pt x 235.8411pt>
 File: figuras/tiposgrafos/torneio.png Graphic file (type png)
 <use figuras/tiposgrafos/torneio.png>
 Package pdftex.def Info: figuras/tiposgrafos/torneio.png  used on input line 67
@@ -1162,13 +1162,13 @@ Package pdftex.def Info: figuras/tiposgrafos/torneio.png  used on input line 67
 
 [24 <./figuras/tiposgrafos/grafSimetrico.png> <./figuras/tiposgrafos/grafAssime
 t.png>]
-<figuras/tiposgrafos/grafo_completo.png, id=413, 1446.40375pt x 503.8825pt>
+<figuras/tiposgrafos/grafo_completo.png, id=448, 1446.40375pt x 503.8825pt>
 File: figuras/tiposgrafos/grafo_completo.png Graphic file (type png)
 <use figuras/tiposgrafos/grafo_completo.png>
 Package pdftex.def Info: figuras/tiposgrafos/grafo_completo.png  used on input 
 line 687.
 (pdftex.def)             Requested size: 364.19667pt x 126.86987pt.
-<figuras/grafo_conexo.png, id=414, 1149.29375pt x 520.94624pt>
+<figuras/grafo_conexo.png, id=449, 1149.29375pt x 520.94624pt>
 File: figuras/grafo_conexo.png Graphic file (type png)
 <use figuras/grafo_conexo.png>
 Package pdftex.def Info: figuras/grafo_conexo.png  used on input line 706.
@@ -1177,7 +1177,7 @@ Package pdftex.def Info: figuras/grafo_conexo.png  used on input line 706.
 
 [25 <./figuras/tiposgrafos/torneio.png> <./figuras/tiposgrafos/grafo_completo.p
 ng>]
-<figuras/forte.png, id=423, 465.74pt x 294.09875pt>
+<figuras/forte.png, id=458, 465.74pt x 294.09875pt>
 File: figuras/forte.png Graphic file (type png)
 <use figuras/forte.png>
 Package pdftex.def Info: figuras/forte.png  used on input line 725.
@@ -1185,7 +1185,7 @@ Package pdftex.def Info: figuras/forte.png  used on input line 725.
 
 
 [26 <./figuras/grafo_conexo.png> <./figuras/forte.png>]
-<figuras/grafo_planar.png, id=430, 946.53625pt x 477.785pt>
+<figuras/grafo_planar.png, id=465, 946.53625pt x 477.785pt>
 File: figuras/grafo_planar.png Graphic file (type png)
 <use figuras/grafo_planar.png>
 Package pdftex.def Info: figuras/grafo_planar.png  used on input line 743.
@@ -1198,12 +1198,12 @@ Overfull \hbox (48.69177pt too wide) in paragraph at lines 755--758
  
  []
 
-<figuras/grafo_euleriano.png, id=431, 550.055pt x 415.5525pt>
+<figuras/grafo_euleriano.png, id=466, 550.055pt x 415.5525pt>
 File: figuras/grafo_euleriano.png Graphic file (type png)
 <use figuras/grafo_euleriano.png>
 Package pdftex.def Info: figuras/grafo_euleriano.png  used on input line 763.
 (pdftex.def)             Requested size: 182.09486pt x 137.56392pt.
-<figuras/grafo_hamiltoniano.png, id=432, 391.4625pt x 368.37625pt>
+<figuras/grafo_hamiltoniano.png, id=467, 391.4625pt x 368.37625pt>
 File: figuras/grafo_hamiltoniano.png Graphic file (type png)
 <use figuras/grafo_hamiltoniano.png>
 Package pdftex.def Info: figuras/grafo_hamiltoniano.png  used on input line 775
@@ -1212,12 +1212,12 @@ Package pdftex.def Info: figuras/grafo_hamiltoniano.png  used on input line 775
 
 
 [27 <./figuras/grafo_planar.png> <./figuras/grafo_euleriano.png>]
-<figuras/grafo_bipartido.png, id=443, 520.94624pt x 483.8075pt>
+<figuras/grafo_bipartido.png, id=478, 520.94624pt x 483.8075pt>
 File: figuras/grafo_bipartido.png Graphic file (type png)
 <use figuras/grafo_bipartido.png>
 Package pdftex.def Info: figuras/grafo_bipartido.png  used on input line 787.
 (pdftex.def)             Requested size: 136.57462pt x 126.83527pt.
-<figuras/grafo_bipartido_completo.png, id=444, 568.1225pt x 503.8825pt>
+<figuras/grafo_bipartido_completo.png, id=479, 568.1225pt x 503.8825pt>
 File: figuras/grafo_bipartido_completo.png Graphic file (type png)
 <use figuras/grafo_bipartido_completo.png>
 Package pdftex.def Info: figuras/grafo_bipartido_completo.png  used on input li
@@ -1227,12 +1227,12 @@ ne 799.
 
 [28 <./figuras/grafo_hamiltoniano.png> <./figuras/grafo_bipartido.png> <./figur
 as/grafo_bipartido_completo.png>]
-<figuras/grafo_k-partido.png, id=452, 921.4425pt x 541.02126pt>
+<figuras/grafo_k-partido.png, id=487, 921.4425pt x 541.02126pt>
 File: figuras/grafo_k-partido.png Graphic file (type png)
 <use figuras/grafo_k-partido.png>
 Package pdftex.def Info: figuras/grafo_k-partido.png  used on input line 812.
 (pdftex.def)             Requested size: 182.09486pt x 106.9145pt.
-<figuras/grafo_ponderado.png, id=453, 393.47pt x 409.53pt>
+<figuras/grafo_ponderado.png, id=488, 393.47pt x 409.53pt>
 File: figuras/grafo_ponderado.png Graphic file (type png)
 <use figuras/grafo_ponderado.png>
 Package pdftex.def Info: figuras/grafo_ponderado.png  used on input line 827.
@@ -1240,18 +1240,18 @@ Package pdftex.def Info: figuras/grafo_ponderado.png  used on input line 827.
 
 
 [29 <./figuras/grafo_k-partido.png> <./figuras/grafo_ponderado.png>]
-<figuras/grafo_complemetnar.png, id=464, 967.615pt x 356.33125pt>
+<figuras/grafo_complemetnar.png, id=499, 967.615pt x 356.33125pt>
 File: figuras/grafo_complemetnar.png Graphic file (type png)
 <use figuras/grafo_complemetnar.png>
 Package pdftex.def Info: figuras/grafo_complemetnar.png  used on input line 849
 .
 (pdftex.def)             Requested size: 182.09486pt x 67.05661pt.
-<figuras/Subgrafogerador.png, id=465, 569.12625pt x 158.5925pt>
+<figuras/Subgrafogerador.png, id=500, 569.12625pt x 158.5925pt>
 File: figuras/Subgrafogerador.png Graphic file (type png)
 <use figuras/Subgrafogerador.png>
 Package pdftex.def Info: figuras/Subgrafogerador.png  used on input line 860.
 (pdftex.def)             Requested size: 273.14923pt x 76.11868pt.
-<figuras/Subgrafoinduzido.png, id=466, 569.12625pt x 308.15125pt>
+<figuras/Subgrafoinduzido.png, id=501, 569.12625pt x 308.15125pt>
 File: figuras/Subgrafoinduzido.png Graphic file (type png)
 <use figuras/Subgrafoinduzido.png>
 Package pdftex.def Info: figuras/Subgrafoinduzido.png  used on input line 871.
@@ -1260,12 +1260,12 @@ Package pdftex.def Info: figuras/Subgrafoinduzido.png  used on input line 871.
 
 [30 <./figuras/grafo_complemetnar.png> <./figuras/Subgrafogerador.png> <./figur
 as/Subgrafoinduzido.png>]
-<figuras/Arvore.png, id=476, 317.185pt x 293.095pt>
+<figuras/Arvore.png, id=511, 317.185pt x 293.095pt>
 File: figuras/Arvore.png Graphic file (type png)
 <use figuras/Arvore.png>
 Package pdftex.def Info: figuras/Arvore.png  used on input line 897.
 (pdftex.def)             Requested size: 273.14923pt x 252.4235pt.
-<figuras/Arvoregeradora.png, id=477, 539.01375pt x 224.84pt>
+<figuras/Arvoregeradora.png, id=512, 539.01375pt x 224.84pt>
 File: figuras/Arvoregeradora.png Graphic file (type png)
 <use figuras/Arvoregeradora.png>
 Package pdftex.def Info: figuras/Arvoregeradora.png  used on input line 910.
@@ -1273,17 +1273,17 @@ Package pdftex.def Info: figuras/Arvoregeradora.png  used on input line 910.
 
 
 [31 <./figuras/Arvore.png> <./figuras/Arvoregeradora.png>]
-<figuras/Floresta.png, id=492, 569.12625pt x 202.7575pt>
+<figuras/Floresta.png, id=527, 569.12625pt x 202.7575pt>
 File: figuras/Floresta.png Graphic file (type png)
 <use figuras/Floresta.png>
 Package pdftex.def Info: figuras/Floresta.png  used on input line 921.
 (pdftex.def)             Requested size: 273.14923pt x 97.3163pt.
-<figuras/Grafoisomorfico.png, id=493, 569.12625pt x 169.63374pt>
+<figuras/Grafoisomorfico.png, id=528, 569.12625pt x 169.63374pt>
 File: figuras/Grafoisomorfico.png Graphic file (type png)
 <use figuras/Grafoisomorfico.png>
 Package pdftex.def Info: figuras/Grafoisomorfico.png  used on input line 935.
 (pdftex.def)             Requested size: 273.14923pt x 81.41808pt.
-<figuras/Conjuntoidepen.png, id=494, 304.13625pt x 318.18875pt>
+<figuras/Conjuntoidepen.png, id=529, 304.13625pt x 318.18875pt>
 File: figuras/Conjuntoidepen.png Graphic file (type png)
 <use figuras/Conjuntoidepen.png>
 Package pdftex.def Info: figuras/Conjuntoidepen.png  used on input line 954.
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: figuras/Conjuntoidepen.png  used on input line 954.
 
 
 [32 <./figuras/Floresta.png> <./figuras/Grafoisomorfico.png>]
-<figuras/Hipergrafo.png, id=507, 290.08376pt x 328.22626pt>
+<figuras/Hipergrafo.png, id=542, 290.08376pt x 328.22626pt>
 File: figuras/Hipergrafo.png Graphic file (type png)
 <use figuras/Hipergrafo.png>
 Package pdftex.def Info: figuras/Hipergrafo.png  used on input line 977.
@@ -1302,19 +1302,19 @@ Package pdftex.def Info: figuras/Hipergrafo.png  used on input line 977.
 
 [34 <./figuras/Hipergrafo.png>]
 Cap\'{\i }tulo 4.
-<figuras/subgrafos/subgrafo1.png, id=527, 2155.05125pt x 1665.22125pt>
+<figuras/subgrafos/subgrafo1.png, id=562, 2155.05125pt x 1665.22125pt>
 File: figuras/subgrafos/subgrafo1.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1.png>
 Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 10
 12.
 (pdftex.def)             Requested size: 218.51521pt x 168.84412pt.
-<figuras/subgrafos/subgrafo2.png, id=528, 1795.70876pt x 1765.59625pt>
+<figuras/subgrafos/subgrafo2.png, id=563, 1795.70876pt x 1765.59625pt>
 File: figuras/subgrafos/subgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo2.png>
 Package pdftex.def Info: figuras/subgrafos/subgrafo2.png  used on input line 10
 19.
 (pdftex.def)             Requested size: 218.51521pt x 214.8259pt.
-<figuras/subgrafos/subgrafo1usubgrafo2.png, id=529, 3342.4875pt x 2092.81876pt>
+<figuras/subgrafos/subgrafo1usubgrafo2.png, id=564, 3342.4875pt x 2092.81876pt>
 
 File: figuras/subgrafos/subgrafo1usubgrafo2.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo1usubgrafo2.png>
@@ -1326,7 +1326,7 @@ ut line 1032.
 [35
 
  <./figuras/subgrafos/subgrafo1.png> <./figuras/subgrafos/subgrafo2.png>]
-<figuras/subgrafos/subgrafo_inter.png, id=539, 593.21625pt x 610.28pt>
+<figuras/subgrafos/subgrafo_inter.png, id=574, 593.21625pt x 610.28pt>
 File: figuras/subgrafos/subgrafo_inter.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_inter.png>
 Package pdftex.def Info: figuras/subgrafos/subgrafo_inter.png  used on input li
@@ -1341,12 +1341,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1054--1056
 
 [36 <./figuras/subgrafos/subgrafo1usubgrafo2.png> <./figuras/subgrafos/subgrafo
 _inter.png>]
-<figuras/soma_NOVO.png, id=547, 877.2775pt x 555.07375pt>
+<figuras/soma_NOVO.png, id=582, 877.2775pt x 555.07375pt>
 File: figuras/soma_NOVO.png Graphic file (type png)
 <use figuras/soma_NOVO.png>
 Package pdftex.def Info: figuras/soma_NOVO.png  used on input line 1062.
 (pdftex.def)             Requested size: 409.71692pt x 259.24156pt.
-<figuras/subgrafos/subgrafo_soma_direta.png, id=549, 1347.0325pt x 759.83875pt>
+<figuras/subgrafos/subgrafo_soma_direta.png, id=584, 1347.0325pt x 759.83875pt>
 
 File: figuras/subgrafos/subgrafo_soma_direta.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_soma_direta.png>
@@ -1360,19 +1360,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [37 <./figuras/soma_NOVO.png>]
-<figuras/decomposicao.png, id=556, 1811.76875pt x 585.18625pt>
+<figuras/decomposicao.png, id=591, 1811.76875pt x 585.18625pt>
 File: figuras/decomposicao.png Graphic file (type png)
 <use figuras/decomposicao.png>
 Package pdftex.def Info: figuras/decomposicao.png  used on input line 1093.
 (pdftex.def)             Requested size: 455.24411pt x 147.03732pt.
-<figuras/subgrafos/subgrafo_remocao_vertice.png, id=560, 1031.855pt x 628.3475p
+<figuras/subgrafos/subgrafo_remocao_vertice.png, id=595, 1031.855pt x 628.3475p
 t>
 File: figuras/subgrafos/subgrafo_remocao_vertice.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_remocao_vertice.png>
 Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_vertice.png  used o
 n input line 1107.
 (pdftex.def)             Requested size: 174.81284pt x 106.44373pt.
-<figuras/subgrafos/subgrafo_remocao_aresta.png, id=561, 839.135pt x 788.9475pt>
+<figuras/subgrafos/subgrafo_remocao_aresta.png, id=596, 839.135pt x 788.9475pt>
 
 File: figuras/subgrafos/subgrafo_remocao_aresta.png Graphic file (type png)
 <use figuras/subgrafos/subgrafo_remocao_aresta.png>
@@ -1383,7 +1383,7 @@ Package pdftex.def Info: figuras/subgrafos/subgrafo_remocao_aresta.png  used on
 
 [38 <./figuras/subgrafos/subgrafo_soma_direta.png> <./figuras/decomposicao.png>
 ]
-<figuras/fusao_novo_novo.png, id=570, 750.805pt x 800.9925pt>
+<figuras/fusao_novo_novo.png, id=605, 750.805pt x 800.9925pt>
 File: figuras/fusao_novo_novo.png Graphic file (type png)
 <use figuras/fusao_novo_novo.png>
 Package pdftex.def Info: figuras/fusao_novo_novo.png  used on input line 1129.
@@ -1392,7 +1392,7 @@ Package pdftex.def Info: figuras/fusao_novo_novo.png  used on input line 1129.
 
 [39 <./figuras/subgrafos/subgrafo_remocao_vertice.png> <./figuras/subgrafos/sub
 grafo_remocao_aresta.png> <./figuras/fusao_novo_novo.png>]
-<figuras/contracao_novo_novo.png, id=578, 992.70876pt x 547.04375pt>
+<figuras/contracao_novo_novo.png, id=613, 992.70876pt x 547.04375pt>
 File: figuras/contracao_novo_novo.png Graphic file (type png)
 <use figuras/contracao_novo_novo.png>
 Package pdftex.def Info: figuras/contracao_novo_novo.png  used on input line 11
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: figuras/subgrafos/subgrafo1.png  used on input line 11
 [41
 
 ]
-<figuras/BuscaProfundidade.png, id=595, 1725.44624pt x 2168.1pt>
+<figuras/BuscaProfundidade.png, id=630, 1725.44624pt x 2168.1pt>
 File: figuras/BuscaProfundidade.png Graphic file (type png)
 <use figuras/BuscaProfundidade.png>
 Package pdftex.def Info: figuras/BuscaProfundidade.png  used on input line 1202
@@ -1431,7 +1431,7 @@ Cap\'{\i }tulo 6.
 ]
 
 [45]
-<figuras/topologigi.jpeg, id=616, 1284.8pt x 735.74875pt>
+<figuras/topologigi.jpeg, id=651, 1284.8pt x 735.74875pt>
 File: figuras/topologigi.jpeg Graphic file (type jpg)
 <use figuras/topologigi.jpeg>
 Package pdftex.def Info: figuras/topologigi.jpeg  used on input line 1331.
@@ -1441,7 +1441,7 @@ Package pdftex.def Info: figuras/topologigi.jpeg  used on input line 1331.
 [46]
 
 [47 <./figuras/topologigi.jpeg>]
-<figuras/ford.jpeg, id=627, 1279.78125pt x 861.2175pt>
+<figuras/ford.jpeg, id=662, 1279.78125pt x 861.2175pt>
 File: figuras/ford.jpeg Graphic file (type jpg)
 <use figuras/ford.jpeg>
 Package pdftex.def Info: figuras/ford.jpeg  used on input line 1347.
@@ -1449,50 +1449,84 @@ Package pdftex.def Info: figuras/ford.jpeg  used on input line 1347.
 
 
 [48 <./figuras/ford.jpeg>]
+<figuras/tiposgrafos/grafFloydWarshall.png, id=668, 235.8411pt x 298.9569pt>
+File: figuras/tiposgrafos/grafFloydWarshall.png Graphic file (type png)
+<use figuras/tiposgrafos/grafFloydWarshall.png>
+Package pdftex.def Info: figuras/tiposgrafos/grafFloydWarshall.png  used on inp
+ut line 1372.
+(pdftex.def)             Requested size: 227.62206pt x 288.55089pt.
+
 
 [49]
+
+[50 <./figuras/tiposgrafos/grafFloydWarshall.png>]
+Overfull \hbox (9.0032pt too wide) in paragraph at lines 1455--1456
+[]\T1/phv/m/n/12 O al-go-ritmo de Bellman-Ford é uti-li-zado e pos-sui me-lhor 
+custo com-pu-ta-ci-o-nal quando
+ []
+
+
+
+[51]
+
+[52]
 Cap\'{\i }tulo 7.
 
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1467.
 
-[50
-
-]
-Cap\'{\i }tulo 8.
-
-
-[51
-
-]
-Cap\'{\i }tulo 9.
-
-
-[52
-
-]
-Cap\'{\i }tulo 10.
 
 
 [53
 
 ]
+<figuras/ArvCobMin/Krustal.jpg, id=698, 672.111pt x 518.53725pt>
+File: figuras/ArvCobMin/Krustal.jpg Graphic file (type jpg)
+<use figuras/ArvCobMin/Krustal.jpg>
+Package pdftex.def Info: figuras/ArvCobMin/Krustal.jpg  used on input line 1499
+.
+(pdftex.def)             Requested size: 227.62206pt x 175.61197pt.
+
+
+[54 <./figuras/ArvCobMin/Krustal.jpg>]
+
+[55]
+Cap\'{\i }tulo 8.
+
+
+[56
+
+]
+Cap\'{\i }tulo 9.
+
+
+[57
+
+]
+Cap\'{\i }tulo 10.
+
+
+[58
+
+]
 Cap\'{\i }tulo 11.
 
 
-[54
+[59
 
 ]
 Cap\'{\i }tulo 12.
 
 
-[55
+[60
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 1392.
+LaTeX Warning: Empty bibliography on input line 1562.
 
 
 
-[56
+[61
 
 
 ] (main.aux)
@@ -1504,8 +1538,14 @@ L3 programming layer <2025-08-13>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0D8624F79ACAD759F23267B9A7DB86C2;6016.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: B06C3CB93163EF4685C81131C7CD43A0;7288
+(rerunfilecheck)             After:  B0FD8294BA186D33F859F189E792E9FE;7421.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1516,13 +1556,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22907 strings out of 468133
- 403092 string characters out of 5431681
- 1260460 words of memory out of 5000000
- 51103 multiletter control sequences out of 15000+600000
+ 22969 strings out of 468133
+ 404470 string characters out of 5431681
+ 1261253 words of memory out of 5000000
+ 51144 multiletter control sequences out of 15000+600000
  656405 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,811b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1166b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 ex10.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmmi10.pfb><C:/Users/Ian/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1536,9 +1576,9 @@ l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ian/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Ian/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ian/AppData/
 Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (58 pages, 2157856 bytes).
+Output written on main.pdf (63 pages, 2284635 bytes).
 PDF statistics:
- 756 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
- 587 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 828 PDF objects out of 1000 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 653 words of extra memory for PDF output out of 10000 (max. 10000000)
 

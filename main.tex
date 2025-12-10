@@ -1464,8 +1464,80 @@ Nessa iteração, Pode-se afirmar que todos os caminhos mínimos foram descobert
 
 \chapter{ARVORE DE COBERTURA MÍNIMA}\label{cap:arvCobMinima}
 
+\subsection{Algoritmo de Krustal}
+
+	Para obter a árvore de cobertura mínima pelo algoritmo de Krustal, primeiramente, temos que pegar o grafo e ordenar todas as arestas por peso, da mais leve para a mais pesada, o grafo usado será o grafo inteiro, que está na imagem 2.1.
+	
+	
+	A partir do grafo escolhido e com as arestas ordenadas de forma crescente, separamos duas filas, uma de conjunto e outra de quantidade de cada conjunto, inicializando-as de 1 até 16 e 1 em todas as 16 posições, respectivamente.
+	
+	
+	Com as filas preparadas, começamos a pegar cada aresta e comparamos o conjunto de cada um, pela ordenação, a aresta (4,5) é a primeira, e a partir dela, temos que o conjunto 4 é diferente do de 5, então a partir disso, um dos dois conjuntos se tornará parte do outro, para definir qual será, temos que olhar para a outra fila de quantidade, no qual todos estão como 1, então podemos escolher qualquer um para tal, no caso, vamos colocar 4 no conjunto 5, então nas próximas comparações, o V4 será 5 e agora mudamos na fila de quantidades, que no conjunto 5, se tem 2 membros, e no conjunto 4, se tem 0.
+	
+	
+	Para simplificar a explicação, vou apenas destacar alguns detalhes do algoritmo com exemplos reais do processo a ser realizado.
+	
+	
+	No momento em que vamos usar a aresta (7,11), temos que o conjunto 7 faz parte do 12, então a comparação a ser feita com 11 é de 12 com 11, e não 7 com 11, nesse caso 12 != 11, e ao analisar, vemos que o 12 tem maior quantidade de membros em seu conjunto, nesse caso, obrigatoriamente, o 11 começa a fazer parte do conjunto 12, então a quantidade de membros em 11 será reduzida pra 0 e iremos aumentar o de 12 com a diferença restante do 11.
+	
+	
+	Quando analisamos a aresta (6,10) vemos que 10 equivale a 11, porém, o 11 equivale a 12, nesse caso, a comparação é feita com o 12, e nada se altera no 10, porque por mais que 11 não tenha mais nenhum membro em conjunto, o 11 ainda aponta para 12, o que faz com que 10 automaticamente aponte para 12 também, nesse caso 12 != 13 (6 equivale a 13), e adicionamos 13 para o conjunto 12.
+	
+	
+	Quando analisamos a aresta (13,10) vemos que os dois levam ao conjunto 12, nesse caso, essa aresta não é adicionada, pois se for, criará um ciclo, que é proibido em uma árvore, nesse caso, nada se altera, apenas se segue para a próxima aresta.
+	
+	
+	Depois de analisar a aresta (11,15), vemos que na fila de quantidades, todos os espaços estão em 0 e apenas o 12 tem 16 membros, como o total de vértices é 16, já podemos garantir que nenhuma aresta a mais será adicionada, já que todas já foram contempladas, e qualquer aresta adicional, criaria um ciclo novo.
+	
+	
+	No fim de todas as comparações, temos a árvore de cobertura mínima a partir do algoritmo de krustal.
+	
+	\begin{figure} [H]
+		\centering
+		\caption{Árvore de cob mínima por Krustal}%% Legenda
+		\label{fig:grafArvCobMinKrustal}%% Rótulo
+		\includegraphics[width=0.5\linewidth,angle=0]{figuras/ArvCobMin/Krustal.jpg}%% Dimensões e localização
+		\\
+		\centering{Fonte: Criação própria}%% Fonte
+	\end{figure}
+	
+\subsection{Algoritmo de Prim}
+	
+	Podemos obter a árvore de cobertura mínima também pelo algoritmo de Prim, que é melhor em relação a processamento computacional que o de Krustal.
+	
+	
+	O algoritmo de Prim é parecido com o anteriormente mencionado algoritmo de Dijkstra no capitulo 6.2.1, a única diferença entre os dois, é que o de Prim não soma os pesos, eles são comparados em seus valores brutos, já que não buscamos um caminho, mas sim uma árvore, de resto, o processo é idêntico, o que o torna relativamente mais simples que o de Dijkstra.
+	
+	
+	No processo, usamos 3 filas, fila Pai, que vai definir o vértice pai de cada um, o que no fim define as arestas que estão na árvore; fila de pesos, que vai mostrar o peso de cada aresta na árvore e a fila de prioridade, que vai definir qual o próximo vértice que será contemplado, a fila é definida por peso, então caso a fila de prioridade já tenha todos os membros, e algum peso se altere, ela vai se alterar também, e depois que se contempla algum vértice, ele é desenfileirado, e a partir disso seu vértice pai nem seu peso pode ser alterado.
+	
+	As filas são inicializadas da seguinte forma: A fila pai será inicializada com NULL em todas as posições, e será alterado seus valores ao longo do algoritmo; A fila de pesos será definida com todos os membros com valores muito altos, para não atrapalharem a fila de prioridade; e por fim, a fila de prioridade, que será iniciada em ordem crescente, já que a ordem da fila no momento inicial não importa necessariamente, porque os pesos são "iguais" no momento da criação da fila .
+	
+	
+	Ao realizar o processo do algoritmo, priorizamos nas comparações os menores pesos, então quando temos 2 arestas para o mesmo vértice, o mais leve é o que entrará na árvore, e o outro será esquecido, para evitar ciclos dentro da árvore.
+	Exemplo:
+	Quando o 13 é desenfileirado da fila de prioridades, vemos que ele é adjacente a 10, o qual já estava na fila Pai o 6, então é feito a comparação dos pesos entre (6,10) e (13,10), e ao analisar, mantemos o (6,10), pois seu peso é menor, e na árvore final, não terá a aresta (13,10).
+	
+	
+	No fim, temos a seguinte fila pai:
+	
+	[NULL,1,11,8,4,2,11,12,6,6,10,7,9,15,11,15]
+	
+	E ao fazer a árvore de cobertura mínima, vemos que ela é identica a que pegamos pelo algoritmo de Krustal, mostrando que os dois chegam ao mesmo lugar, mas o de prim é melhor computacionalmente falando.
+	
+
 
 \chapter{GRAFOS EULERIANOS}\label{cap:grafosEulerianos}
+A modelagem e solução de um problema de ciclos por Leonard Euler, durante o século
+XVIII, é responsável por definir os fundamentos da teoria dos grafos. A Seção 8.1 demonstra
+que o grafo apresentado geometricamente na Figura 1 não satisfaz o teorema de Euler. Para
+torná-lo euleriano, uma eulerização é descrita na Seção 8.2.
+As Seções 8.3 e 8.4 apresentam, respectivamente, a aplicação do algoritmo de Hierholzer e de Fleury para a obtenção de um ciclo euleriano no grafo apresentado geometricamente
+na Figura 1. As considerações acerca da eficiência computacional, tanto em relação ao tempo
+de processamento quanto ao espaço usado de memória pelos algoritmos de Hierholzer e de
+Fleury, são dadas na Seção 8.5.
+
+\section{Grafo Euleriano}
 
 
 \chapter{GRAFOS HAMILTONIANOS}\label{cap:grafosHamiltonianos}
