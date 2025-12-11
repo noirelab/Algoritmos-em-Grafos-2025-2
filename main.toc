@@ -40,19 +40,22 @@
 \contentsline {subsection}{\numberline {6.4.4}Algoritmo de Floyd Warshall}{52}{subsection.6.4.4}%
 \contentsline {subsection}{\numberline {6.4.5}Aplicações dos algoritmos}{52}{subsection.6.4.5}%
 \contentsline {chapter}{\numberline {7}ARVORE DE COBERTURA MÍNIMA}{53}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Algoritmo de Krustal}{53}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.1}Algoritmo de Kruskal}{53}{subsection.7.0.1}%
 \contentsline {subsection}{\numberline {7.0.2}Algoritmo de Prim}{54}{subsection.7.0.2}%
 \contentsline {chapter}{\numberline {8}GRAFOS EULERIANOS}{56}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Grafo Euleriano}{56}{section.8.1}%
-\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{57}{chapter.9}%
-\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{58}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Caminho Alternante}{58}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Caminho Aumentante}{58}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Emparelhamento Maximal}{59}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Emparelhamento Máximo}{59}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Emparelhamento Perfeito}{59}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Algoritmo Húngaro}{60}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Algoritmo de Edmonds (Blossom)}{60}{section.10.7}%
-\contentsline {chapter}{\numberline {11}PLANARIDADE}{62}{chapter.11}%
-\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{63}{chapter.12}%
-\contentsline {chapter}{REFERÊNCIAS}{64}{chapter*.52}%
+\contentsline {section}{\numberline {8.2}Eulerização de grafo}{56}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Algoritmo de Hierholzer}{57}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Algoritmo de Fleury}{60}{section.8.4}%
+\contentsline {chapter}{\numberline {9}GRAFOS HAMILTONIANOS}{65}{chapter.9}%
+\contentsline {chapter}{\numberline {10}EMPARELHAMENTO}{66}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Caminho Alternante}{66}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Caminho Aumentante}{66}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Emparelhamento Maximal}{67}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Emparelhamento Máximo}{67}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Emparelhamento Perfeito}{67}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Algoritmo Húngaro}{68}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Algoritmo de Edmonds (Blossom)}{68}{section.10.7}%
+\contentsline {chapter}{\numberline {11}PLANARIDADE}{70}{chapter.11}%
+\contentsline {chapter}{\numberline {12}COLORAÇÃO DE VÉRTICES}{71}{chapter.12}%
+\contentsline {chapter}{REFERÊNCIAS}{72}{chapter*.57}%
